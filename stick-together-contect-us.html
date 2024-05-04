@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Deletion & Contact Us</title>
+  <style>
+    input[type="text"], textarea {
+      padding: 8px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Request Deletion</h2>
+
+  <label for="mobileNumber">Enter Mobile Number:</label>
+  <input type="text" id="mobileNumber" placeholder="Enter mobile number">
+
+  <button onclick="sendDeleteRequest()">Send Delete Request</button>
+
+  <p id="deleteMessage"></p>
+
+  <hr>
+
+  <h2>Contact Us</h2>
+
+  <form id="contactForm">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+
+    <label for="email">Your Email:</label>
+    <input type="text" id="email" name="email" placeholder="Enter your email">
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" placeholder="Enter your message"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="contactMessage">Contact us at hiphopofficialteam@gmail.com</p>
+
+  <script>
+    function sendDeleteRequest() {
+      var mobileNumber = document.getElementById('mobileNumber').value;
+
+      if (mobileNumber.trim() !== '') {
+        // Here you can make an AJAX request to send the delete request
+        // For demonstration purposes, we'll just show a success message
+        document.getElementById('deleteMessage').innerText = "Delete request sent successfully!";
+      } else {
+        document.getElementById('deleteMessage').innerText = "Please enter a valid mobile number!";
+      }
+    }
+
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      var formData = new FormData(this);
+
+      fetch('your_backend_endpoint_to_handle_contact_form_submission', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('contactMessage').innerText = data.message;
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+    });
+  </script>
+</body>
+</html>
