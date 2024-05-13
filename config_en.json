@@ -1,0 +1,884 @@
+{
+  "HorizonLayout": [
+    {
+      "rotate": [],
+      "boxShadow": {
+        "spreadRadius": 1.0101010101010102,
+        "colorOpacity": 0.09,
+        "blurRadius": 21.01010101010101,
+        "x": 0,
+        "y": 4
+      },
+      "backgroundColor": "#FFFFFF",
+      "usePrimaryColor": true,
+      "paddingRight": 15,
+      "title": "Search for service",
+      "marginLeft": 20,
+      "marginRight": 20,
+      "layout": "header_search",
+      "paddingBottom": 0,
+      "showSearch": true,
+      "borderInput": false,
+      "textOpacity": 0.5,
+      "fontSize": 16,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "isSafeArea": false,
+      "alignment": "centerLeft",
+      "radius": 9,
+      "paddingLeft": 5,
+      "fontWeight": 0,
+      "marginTop": 10,
+      "height": 45
+    },
+    {
+      "padding": 0,
+      "upHeight": "0.0",
+      "isSlider": true,
+      "marginLeft": 0,
+      "layout": "bannerImage",
+      "fit": "fitWidth",
+      "marginRight": 0,
+      "isBlur": false,
+      "showNumber": false,
+      "design": "swiper",
+      "showBackground": false,
+      "marginBottom": 0,
+      "radius": 20,
+      "autoPlay": false,
+      "items": [
+        {
+          "image": "https://user-images.githubusercontent.com/1459805/62834035-2899b880-bc71-11e9-9ed8-4ce1790e0460.jpg"
+        },
+        {
+          "image": "https://user-images.githubusercontent.com/1459805/62834034-2899b880-bc71-11e9-956b-64e6d0c35d46.jpg"
+        },
+        {
+          "image": "https://user-images.githubusercontent.com/1459805/62834031-28012200-bc71-11e9-9980-f090df262343.jpg"
+        },
+        {
+          "image": "https://inspireui.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F81c15a81-af1c-4098-a5a1-8b8a21f58441%2Fbanner1.png?table=block&id=a8f3b172-92c3-4d05-9890-0c84a4a50488&spaceId=adfc7c52-309f-45b9-8822-60b33369c98c&width=2000&userId=&cache=v2"
+        }
+      ],
+      "marginTop": 0,
+      "intervalTime": 3
+    },
+    {
+      "showCartIcon": false,
+      "imageBoxfit": "cover",
+      "showStockStatus": true,
+      "featured": false,
+      "columns": 0,
+      "hideStore": false,
+      "vPadding": 0,
+      "showQuantity": true,
+      "showHeart": false,
+      "hMargin": 6,
+      "vMargin": 0,
+      "tag": null,
+      "showCartIconColor": false,
+      "hPadding": 0,
+      "hidePrice": false,
+      "rows": 1,
+      "enableBottomAddToCart": true,
+      "layout": "threeColumn",
+      "enableRating": true,
+      "imageRatio": 0.8396425545933732,
+      "hideTitle": false,
+      "borderRadius": 3,
+      "cardDesign": "card",
+      "isSnapping": false,
+      "showCartButton": true,
+      "name": "Collections",
+      "cartIconRadius": 9
+    },
+    {
+      "line": false,
+      "columns": 4,
+      "noBackground": false,
+      "type": "icon",
+      "showShortDescription": true,
+      "marginX": 0,
+      "marginLeft": 23,
+      "marginY": 0,
+      "layout": "category",
+      "marginRight": 23,
+      "paddingX": 0,
+      "spacing": 12,
+      "size": 1.1,
+      "hideTitle": false,
+      "marginBottom": 10,
+      "radius": 50,
+      "wrap": true,
+      "items": [
+        {
+          "image": "https://i.imgur.com/tqFSncS.png",
+          "originalColor": true,
+          "description": "",
+          "keepDefaultTitle": true,
+          "title": "iPhone",
+          "colors": [
+            "#ffffff"
+          ]
+        },
+        {
+          "image": "https://i.imgur.com/uF0dgtV.png",
+          "originalColor": true,
+          "description": "",
+          "keepDefaultTitle": true,
+          "title": "Huawei",
+          "colors": [
+            "#ffffff"
+          ]
+        },
+        {
+          "image": "https://i.imgur.com/aC4m1Gv.png",
+          "originalColor": true,
+          "description": "",
+          "keepDefaultTitle": true,
+          "title": "Xiaomi",
+          "colors": [
+            "#ffffff"
+          ]
+        },
+        {
+          "image": "https://i.imgur.com/MT1wTY3.png",
+          "originalColor": true,
+          "description": "",
+          "keepDefaultTitle": true,
+          "title": "Oppo",
+          "colors": [
+            "#ffffff"
+          ]
+        },
+        {
+          "image": "https://i.imgur.com/Feti4q0.png",
+          "originalColor": true,
+          "description": "",
+          "keepDefaultTitle": true,
+          "title": "Vivo",
+          "colors": [
+            "#ffffff"
+          ]
+        },
+        {
+          "image": "https://i.imgur.com/6bS4NxH.png",
+          "originalColor": true,
+          "description": "",
+          "keepDefaultTitle": true,
+          "title": "iPad",
+          "colors": [
+            "#ffffff"
+          ]
+        },
+        {
+          "image": "https://i.imgur.com/RtMit6V.png",
+          "originalColor": true,
+          "description": "",
+          "keepDefaultTitle": true,
+          "title": "Dell",
+          "colors": [
+            "#ffffff"
+          ]
+        },
+        {
+          "image": "https://i.imgur.com/IgbfY4f.png",
+          "originalColor": true,
+          "description": "",
+          "keepDefaultTitle": true,
+          "title": "Sony",
+          "colors": [
+            "#ffffff"
+          ]
+        }
+      ],
+      "marginTop": 10,
+      "paddingY": 0
+    },
+    {
+      "layout": "button",
+      "marginBottom": 10,
+      "alignment": "topCenter",
+      "items": [
+        {
+          "marginRight": 0,
+          "textFontSize": 14,
+          "useMaxWidth": true,
+          "borderRadius": 2,
+          "width": 249,
+          "navigator": {
+            "showSubcategory": false
+          },
+          "text": "Do you want to see more amazing photos and videos from our brand?",
+          "textColor": "ff1f4751",
+          "height": 54,
+          "marginLeft": 15
+        },
+        {
+          "marginRight": 10,
+          "textFontSize": 14,
+          "backgroundColor": "fff44336",
+          "useMaxWidth": false,
+          "borderRadius": 95,
+          "width": 100,
+          "navigator": {
+            "url_launch": "http://youtube.com/inspireui?sub_confirmation=1"
+          },
+          "text": "Subscribe",
+          "textColor": "ffffffff",
+          "height": 32,
+          "marginLeft": 5
+        }
+      ],
+      "marginTop": 0
+    },
+    {
+      "rotate": [],
+      "usePrimaryColor": true,
+      "paddingRight": 15,
+      "title": "We will design clothings from our highly qualified designers",
+      "type": "static",
+      "marginRight": 0,
+      "paddingBottom": 10,
+      "showSearch": false,
+      "borderInput": false,
+      "paddingTop": 0,
+      "isSafeArea": false,
+      "fontWeight": 300,
+      "height": 30,
+      "minWidth": 0,
+      "backgroundGradientColor": [],
+      "marginLeft": 10,
+      "layout": "header_text",
+      "textOpacity": 1,
+      "fontSize": 14,
+      "marginBottom": 0,
+      "alignment": "centerLeft",
+      "paddingLeft": 5,
+      "marginTop": 0,
+      "font": "Roboto"
+    },
+    {
+      "layout": "button",
+      "marginBottom": 10,
+      "alignment": "topLeft",
+      "items": [
+        {
+          "marginRight": 15,
+          "textFontSize": 14,
+          "backgroundColor": "ff1f4751",
+          "useMaxWidth": false,
+          "borderRadius": 19,
+          "width": 110,
+          "navigator": {
+            "showSubcategory": false,
+            "category": "23"
+          },
+          "text": "Explore",
+          "textColor": "ffffffff",
+          "height": 32,
+          "marginLeft": 15
+        }
+      ],
+      "marginTop": 0
+    },
+    {
+      "rotate": [],
+      "usePrimaryColor": true,
+      "paddingRight": 15,
+      "title": "Handpicked products",
+      "type": "static",
+      "marginRight": 10,
+      "paddingBottom": 0,
+      "showSearch": false,
+      "borderInput": false,
+      "paddingTop": 10,
+      "isSafeArea": false,
+      "fontWeight": 300,
+      "height": 40,
+      "minWidth": 0,
+      "textColor": "ff000000",
+      "backgroundGradientColor": [],
+      "marginLeft": 10,
+      "layout": "header_text",
+      "textOpacity": 1,
+      "fontSize": 20,
+      "marginBottom": 0,
+      "alignment": "centerLeft",
+      "paddingLeft": 5,
+      "marginTop": 0,
+      "font": "Roboto"
+    },
+    {
+      "showCartIcon": true,
+      "boxShadow": {
+        "spreadRadius": 0,
+        "colorOpacity": 0.1,
+        "blurRadius": 15.01010101010101,
+        "x": 8,
+        "y": 4
+      },
+      "imageBoxfit": "cover",
+      "showStockStatus": true,
+      "hideEmptyProductLayout": false,
+      "showCountDown": false,
+      "parallax": false,
+      "columns": 3,
+      "hideStore": false,
+      "vPadding": 2,
+      "showQuantity": false,
+      "showHeart": false,
+      "hMargin": 6,
+      "parallaxImageRatio": 1.2,
+      "showCartButtonWithQuantity": false,
+      "vMargin": 0,
+      "showOnlyImage": false,
+      "onSale": false,
+      "productType": false,
+      "image": "",
+      "productListItemHeight": 125,
+      "showCartIconColor": false,
+      "hPadding": 6,
+      "hidePrice": false,
+      "rows": 1,
+      "enableBottomAddToCart": true,
+      "layout": "quiltedGridTile",
+      "enableRating": true,
+      "imageRatio": 1.2,
+      "borderRadius": 3,
+      "hideTitle": false,
+      "cardDesign": "quiltedCard",
+      "backgroundRadius": 10,
+      "isSnapping": false,
+      "showCartButton": false,
+      "name": "Blazars Collections",
+      "cartIconRadius": 9,
+      "enableAutoSliding": false,
+      "category": "25",
+      "hideEmptyProductListRating": false
+    },
+    {
+      "layout": "twoColumn",
+      "cardDesign": "simple",
+      "isSnapping": false,
+      "name": "News Fashion Style",
+      "enableAutoSliding": false,
+      "type": "blog",
+      "category": "228"
+    },
+    {
+      "showCartIcon": true,
+      "boxShadow": {
+        "spreadRadius": 10,
+        "colorOpacity": 0.1,
+        "blurRadius": 3.0101010101010104,
+        "x": 2,
+        "y": 2
+      },
+      "imageBoxfit": "cover",
+      "showStockStatus": false,
+      "hideEmptyProductLayout": false,
+      "showCountDown": false,
+      "parallax": false,
+      "columns": 3,
+      "hideStore": false,
+      "vPadding": 0,
+      "showQuantity": false,
+      "showHeart": false,
+      "hMargin": 5,
+      "parallaxImageRatio": 1.2,
+      "showCartButtonWithQuantity": false,
+      "vMargin": 5,
+      "showOnlyImage": false,
+      "onSale": false,
+      "productType": false,
+      "imageWidth": 130.39847400700933,
+      "image": "",
+      "productListItemHeight": 125,
+      "showCartIconColor": false,
+      "hPadding": 5,
+      "hidePrice": false,
+      "rows": 1,
+      "enableBottomAddToCart": true,
+      "layout": "twoColumn",
+      "enableRating": false,
+      "imageRatio": 0.8,
+      "borderRadius": 3,
+      "hideTitle": false,
+      "cardDesign": "card",
+      "backgroundRadius": 0,
+      "isSnapping": false,
+      "showCartButton": false,
+      "name": "Women Collections",
+      "cartIconRadius": 9,
+      "enableAutoSliding": false,
+      "category": "23",
+      "hideEmptyProductListRating": false
+    },
+    {
+      "rotate": [],
+      "usePrimaryColor": true,
+      "paddingRight": 15,
+      "title": "What our customers say about us?",
+      "type": "static",
+      "marginRight": 0,
+      "paddingBottom": 0,
+      "showSearch": false,
+      "borderInput": false,
+      "paddingTop": 0,
+      "isSafeArea": false,
+      "fontWeight": 300,
+      "height": 40,
+      "minWidth": 0,
+      "textColor": "ff000000",
+      "backgroundGradientColor": [],
+      "marginLeft": 0,
+      "layout": "header_text",
+      "textOpacity": 1,
+      "fontSize": 19,
+      "marginBottom": 0,
+      "alignment": "centerLeft",
+      "paddingLeft": 15,
+      "marginTop": 20,
+      "font": "Roboto"
+    },
+    {
+      "marginRight": 5,
+      "layout": "sliderTestimonial",
+      "marginBottom": 0,
+      "type": "swiper",
+      "autoPlay": false,
+      "items": [
+        {
+          "testimonial": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking the overall proposition",
+          "backgroundColor": "fff6f6f6",
+          "rating": 0,
+          "avatar": "https://listeo.pro/wp-content/uploads/2018/11/happy-client-03.jpg",
+          "type": "chat",
+          "authorInTop": false,
+          "textColor": "ff1f4751",
+          "marginLeft": 0,
+          "marginRight": 0,
+          "major": "Restaurant Owner",
+          "isLeft": true,
+          "borderRadius": 5,
+          "borderWidth": 0,
+          "name": "Jack Paden",
+          "marginBottom": 0,
+          "marginTop": 0
+        },
+        {
+          "testimonial": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from nanotechnology",
+          "backgroundColor": "fff7f8f9",
+          "rating": 0,
+          "avatar": "https://listeo.pro/wp-content/uploads/2018/11/happy-client-02.jpg",
+          "type": "chat",
+          "authorInTop": false,
+          "textColor": "ff1f4751",
+          "marginLeft": 0,
+          "marginRight": 0,
+          "major": "Clothing Store Owner",
+          "isLeft": true,
+          "borderRadius": 5,
+          "borderWidth": 0.2,
+          "name": "Tom Baker",
+          "marginBottom": 0,
+          "marginTop": 0
+        }
+      ],
+      "marginTop": 0,
+      "marginLeft": 5,
+      "intervalTime": 3,
+      "height": 190
+    },
+    {
+      "parallax": false,
+      "enableParallax": false,
+      "isHorizontal": false,
+      "marginLeft": 0,
+      "layout": "bannerImage",
+      "fit": "fitWidth",
+      "marginRight": 0,
+      "parallaxImageRatio": 1.2,
+      "design": "static",
+      "marginBottom": 0,
+      "items": [
+        {
+          "image": "https://img.freepik.com/premium-vector/happy-woman-hanging-clothes-dry-outdoors-household-chores-vector-image_379823-6797.jpg?w=2000",
+          "padding": 10,
+          "bannerWithProduct": false,
+          "showSubcategory": false,
+          "video": "",
+          "defaultShowProduct": false,
+          "products": []
+        }
+      ],
+      "marginTop": 0,
+      "height": 0.25
+    },
+    {
+      "layout": "button",
+      "marginBottom": 5,
+      "alignment": "topLeft",
+      "items": [
+        {
+          "marginRight": 5,
+          "textFontSize": 14,
+          "image": "https://trello.com/1/cards/60efb9b97be65b6792f8f836/attachments/61960e768e015a78a380b2fc/previews/61960e768e015a78a380b30d/download/instagram.png",
+          "useMaxWidth": false,
+          "borderRadius": 2,
+          "width": 32,
+          "navigator": {
+            "url_launch": "https://instagram.com"
+          },
+          "height": 32,
+          "marginLeft": 15
+        },
+        {
+          "marginRight": 5,
+          "textFontSize": 14,
+          "image": "https://trello.com/1/cards/60efb9b97be65b6792f8f836/attachments/61960e7449c64e503c3ba8e7/previews/61960e7549c64e503c3ba901/download/facebook.png",
+          "useMaxWidth": false,
+          "borderRadius": 2,
+          "width": 32,
+          "navigator": {
+            "url_launch": "https://www.facebook.com/inspireUI/"
+          },
+          "height": 32,
+          "marginLeft": 0
+        },
+        {
+          "marginRight": 5,
+          "textFontSize": 14,
+          "image": "https://trello.com/1/cards/60efb9b97be65b6792f8f836/attachments/61960e7245f6ec135f3a9b88/previews/61960e7345f6ec135f3a9bbb/download/twitter.png",
+          "useMaxWidth": false,
+          "borderRadius": 2,
+          "width": 32,
+          "navigator": {
+            "url_launch": "https://twitter.com/inspireui"
+          },
+          "height": 32,
+          "marginLeft": 0
+        },
+        {
+          "marginRight": 10,
+          "textFontSize": 14,
+          "image": "https://trello.com/1/cards/60efb9b97be65b6792f8f836/attachments/61961042c90d756e6739284d/previews/61961042c90d756e67392932/download/youtube.png",
+          "useMaxWidth": false,
+          "borderRadius": 2,
+          "width": 32,
+          "navigator": {
+            "url_launch": "https://www.youtube.com/inspireui"
+          },
+          "height": 32,
+          "marginLeft": 0
+        }
+      ],
+      "marginTop": 0
+    },
+    {
+      "rotate": [],
+      "usePrimaryColor": true,
+      "paddingRight": 15,
+      "title": "Copyright © 1997",
+      "type": "static",
+      "marginRight": 0,
+      "paddingBottom": 0,
+      "showSearch": false,
+      "borderInput": false,
+      "paddingTop": 0,
+      "isSafeArea": false,
+      "fontWeight": 200,
+      "height": 20,
+      "minWidth": 0,
+      "textColor": "ff979797",
+      "backgroundGradientColor": [],
+      "marginLeft": 0,
+      "layout": "header_text",
+      "textOpacity": 1,
+      "fontSize": 14,
+      "marginBottom": 0,
+      "alignment": "centerLeft",
+      "paddingLeft": 15,
+      "marginTop": 0,
+      "font": "Roboto"
+    }
+  ],
+  "Setting": {
+    "TabBarConfig": {
+      "enableOnTop": false,
+      "color": null,
+      "radiusTopLeft": 0,
+      "paddingRight": 0,
+      "radiusTopRight": 0,
+      "TabBarIndicator": {
+        "strokeWidth": 0,
+        "color": null,
+        "horizontalPadding": 0,
+        "topRightRadius": 0,
+        "tabPosition": "bottom",
+        "bottomRightRadius": 0,
+        "bottomLeftRadius": 0,
+        "topLeftRadius": 0,
+        "paintingStyle": "fill",
+        "distanceFromCenter": 0,
+        "radius": 0,
+        "verticalPadding": 0,
+        "height": 0
+      },
+      "showMinimize": false,
+      "marginRight": 0,
+      "enableDivider": true,
+      "paddingBottom": 0,
+      "indicatorStyle": "none",
+      "enable": true,
+      "radiusBottomRight": 0,
+      "iconSize": 22,
+      "showFloatingClip": true,
+      "paddingTop": 0,
+      "isSafeArea": true,
+      "TabBarFloating": {
+        "elevation": 2,
+        "color": "ff1f4751",
+        "width": 50,
+        "floatingType": "circle",
+        "location": null,
+        "isCoverMode": false,
+        "position": 2,
+        "notchMargin": 4,
+        "radius": 50,
+        "height": 50
+      },
+      "showFloating": true,
+      "colorActiveIcon": "ff1f4751",
+      "colorCart": null,
+      "radiusBottomLeft": 0,
+      "alwaysShowTabBar": false,
+      "marginLeft": 0,
+      "colorIcon": "ffa6b0b3",
+      "marginBottom": 0,
+      "paddingLeft": 0,
+      "marginTop": 0
+    },
+    "FontFamily": "Figtree",
+    "FontHeader": "Figtree",
+    "MainColor": null,
+    "ProductListLayout": "list"
+  },
+  "TabBar": [
+    {
+      "layout": "home",
+      "fontFamily": "CupertinoIcons",
+      "pos": 100,
+      "icon": "home",
+      "key": "DqDbgnbtPO"
+    },
+    {
+      "layout": "category",
+      "parallaxImageRatio": 1.2,
+      "fontFamily": "CupertinoIcons",
+      "fullscreen": false,
+      "pos": 200,
+      "showOriginalColor": false,
+      "parallax": false,
+      "defaultTab": false,
+      "showSearch": true,
+      "icon": "rectangle_grid_1x2",
+      "categoryLayout": "sideMenu",
+      "key": "FgCROTAxzp"
+    },
+    {
+      "layout": "search",
+      "fontFamily": "CupertinoIcons",
+      "size": 24,
+      "pos": 300,
+      "icon": "search",
+      "key": "NdNPrpbyuo"
+    },
+    {
+      "layout": "cart",
+      "fontFamily": "CupertinoIcons",
+      "pos": 400,
+      "icon": "bag",
+      "categoryLayout": "cart",
+      "key": "xXCHfycFnZ"
+    },
+    {
+      "layout": "profile",
+      "settings": [
+        "biometrics",
+        "wishlist",
+        "notifications",
+        "language",
+        "currencies",
+        "order",
+        "point",
+        "rating",
+        "privacy",
+        "about"
+      ],
+      "styleItem": "flat",
+      "fontFamily": "CupertinoIcons",
+      "fullscreen": false,
+      "pos": 500,
+      "background": "https://images.unsplash.com/photo-1528459061998-56fd57ad86e3?auto=format&fit=crop&q=80&w=3140&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "defaultTab": false,
+      "showBackground": true,
+      "icon": "person",
+      "key": "CBdQSYjkLE"
+    }
+  ],
+  "Drawer": {
+    "filter": 0.1,
+    "logoConfig": {
+      "marginRight": 0,
+      "width": 150,
+      "boxFit": "fitWidth",
+      "marginBottom": 10,
+      "marginTop": 60,
+      "height": 38,
+      "marginLeft": 20
+    },
+    "colorFilter": "ffffffff",
+    "backgroundImage": "https://images.unsplash.com/photo-1547149600-a6cdf8fce60c?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "enable": true,
+    "iconColor": "ffffffff",
+    "logo": "https://i.imgur.com/URwugpt.png",
+    "subDrawerItem": {},
+    "safeArea": false,
+    "items": [
+      {
+        "show": true,
+        "type": "home"
+      },
+      {
+        "show": true,
+        "type": "blog"
+      },
+      {
+        "show": true,
+        "type": "categories"
+      },
+      {
+        "show": true,
+        "type": "cart"
+      },
+      {
+        "show": true,
+        "type": "profile"
+      },
+      {
+        "show": true,
+        "type": "login"
+      },
+      {
+        "show": false,
+        "type": "category"
+      }
+    ],
+    "textColor": "ffffffff",
+    "key": "RizYHFFqfj"
+  },
+  "AppBar": {
+    "elevation": 0,
+    "pinned": true,
+    "showOnScreens": [
+      "home"
+    ],
+    "enable": true,
+    "floating": true,
+    "alwaysShowAppBar": false,
+    "expandedItems": [],
+    "items": [
+      {
+        "spacingText": 3,
+        "paddingRight": 4,
+        "icon": "square_grid_2x2",
+        "type": "icon",
+        "marginRight": 4,
+        "avatarRadius": 100,
+        "headerFontWeight": "400",
+        "fontFamily": "CupertinoIcons",
+        "paddingBottom": 4,
+        "headerFontSize": 16,
+        "pos": 100,
+        "action": "menu",
+        "iconSize": 24,
+        "paddingTop": 4,
+        "radius": 18,
+        "fontWeight": "400",
+        "key": "gbs354efgo",
+        "backgroundColor": "0",
+        "headerTextOpacity": 0.5,
+        "marginLeft": 16,
+        "size": 40,
+        "textOpacity": 0.5,
+        "fontSize": 16,
+        "marginBottom": 4,
+        "alignment": "center",
+        "paddingLeft": 4,
+        "marginTop": 4
+      },
+      {
+        "spacingText": 3,
+        "paddingRight": 4,
+        "icon": "location",
+        "type": "text",
+        "title": "TOY ZONE",
+        "marginRight": 4,
+        "avatarRadius": 100,
+        "headerFontWeight": "400",
+        "fontFamily": "CupertinoIcons",
+        "paddingBottom": 4,
+        "headerFontSize": 16,
+        "pos": 200,
+        "action": "none",
+        "iconSize": 24,
+        "paddingTop": 4,
+        "radius": 16,
+        "fontWeight": "800",
+        "key": "cm03ohengg",
+        "backgroundColor": "#00000000",
+        "headerTextOpacity": 0.5,
+        "marginLeft": 4,
+        "size": 20,
+        "textOpacity": 0.8,
+        "fontSize": 18,
+        "marginBottom": 4,
+        "alignment": "center",
+        "paddingLeft": 4,
+        "marginTop": 4
+      },
+      {
+        "spacingText": 3,
+        "paddingRight": 4,
+        "icon": "shopping_cart",
+        "type": "icon",
+        "marginRight": 16,
+        "avatarRadius": 100,
+        "headerFontWeight": "400",
+        "fontFamily": "CupertinoIcons",
+        "paddingBottom": 4,
+        "headerFontSize": 16,
+        "pos": 400,
+        "action": "cart",
+        "iconSize": 24,
+        "paddingTop": 4,
+        "radius": 18,
+        "fontWeight": "400",
+        "key": "swrxx0zicb",
+        "backgroundColor": "0",
+        "headerTextOpacity": 0.5,
+        "marginLeft": 4,
+        "size": 40,
+        "textOpacity": 0.5,
+        "fontSize": 16,
+        "marginBottom": 4,
+        "alignment": "center",
+        "paddingLeft": 4,
+        "marginTop": 4
+      }
+    ],
+    "snap": true
+  }
+}
