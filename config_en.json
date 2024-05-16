@@ -228,7 +228,7 @@
       "fontFamily": "CupertinoIcons",
       "pos": 100,
       "icon": "home",
-      "key": "yqMnELXMHF"
+      "key": "rrtLjAVtlz"
     },
     {
       "layout": "category",
@@ -242,7 +242,7 @@
       "showSearch": true,
       "icon": "rectangle_grid_1x2",
       "categoryLayout": "grid",
-      "key": "piSkhvFToM"
+      "key": "leGNFmwqcE"
     },
     {
       "layout": "search",
@@ -250,7 +250,7 @@
       "size": 24,
       "pos": 300,
       "icon": "search",
-      "key": "DyCZCZIvrA"
+      "key": "TRLGEOffdW"
     },
     {
       "layout": "wishlist",
@@ -260,7 +260,7 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "bag",
-      "key": "CqfbGoeZKD"
+      "key": "opiyLXsHGE"
     },
     {
       "layout": "profile",
@@ -284,7 +284,7 @@
       "defaultTab": false,
       "showBackground": false,
       "icon": "person",
-      "key": "kyptfoMbud"
+      "key": "jZKowXREDi"
     }
   ],
   "Drawer": {
