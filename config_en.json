@@ -162,60 +162,60 @@
   ],
   "Setting": {
     "TabBarConfig": {
-      "enable": true,
-      "showMinimize": false,
-      "isSafeArea": true,
-      "color": null,
-      "colorCart": null,
-      "colorIcon": "ffa6b0b3",
-      "colorActiveIcon": "ff3fc14f",
-      "iconSize": 22,
-      "indicatorStyle": "none",
-      "showFloatingClip": true,
-      "showFloating": true,
       "enableOnTop": false,
-      "enableDivider": true,
+      "color": null,
       "radiusTopLeft": 0,
-      "radiusTopRight": 0,
-      "radiusBottomLeft": 0,
-      "radiusBottomRight": 0,
-      "paddingLeft": 0,
-      "paddingRight": 0,
-      "paddingBottom": 0,
-      "paddingTop": 0,
-      "marginTop": 0,
-      "marginBottom": 0,
-      "marginLeft": 0,
-      "marginRight": 0,
       "bottomBarStyle": "static",
-      "alwaysShowTabBar": false,
+      "paddingRight": 0,
+      "radiusTopRight": 0,
       "TabBarIndicator": {
-        "height": 0,
-        "tabPosition": "bottom",
-        "topRightRadius": 0,
-        "topLeftRadius": 0,
-        "bottomRightRadius": 0,
-        "bottomLeftRadius": 0,
+        "strokeWidth": 0,
         "color": null,
         "horizontalPadding": 0,
-        "verticalPadding": 0,
-        "strokeWidth": 0,
-        "radius": 0,
+        "topRightRadius": 0,
+        "tabPosition": "bottom",
+        "bottomRightRadius": 0,
+        "bottomLeftRadius": 0,
+        "topLeftRadius": 0,
+        "paintingStyle": "fill",
         "distanceFromCenter": 0,
-        "paintingStyle": "fill"
+        "radius": 0,
+        "verticalPadding": 0,
+        "height": 0
       },
+      "showMinimize": false,
+      "marginRight": 0,
+      "enableDivider": true,
+      "paddingBottom": 0,
+      "indicatorStyle": "none",
+      "enable": true,
+      "radiusBottomRight": 0,
+      "iconSize": 22,
+      "showFloatingClip": true,
+      "paddingTop": 0,
+      "isSafeArea": true,
       "TabBarFloating": {
-        "position": 2,
-        "radius": 50,
-        "color": "ff1f4751",
-        "location": null,
-        "width": 50,
-        "height": 50,
         "elevation": 2,
+        "color": "ff1f4751",
+        "width": 50,
         "floatingType": "circle",
+        "location": null,
+        "isCoverMode": false,
+        "position": 2,
         "notchMargin": 4,
-        "isCoverMode": false
-      }
+        "radius": 50,
+        "height": 50
+      },
+      "showFloating": true,
+      "colorActiveIcon": "ff3fc14f",
+      "colorCart": null,
+      "radiusBottomLeft": 0,
+      "alwaysShowTabBar": false,
+      "marginLeft": 0,
+      "colorIcon": "ffa6b0b3",
+      "marginBottom": 0,
+      "paddingLeft": 0,
+      "marginTop": 0
     },
     "FontFamily": "Figtree",
     "FontHeader": "Figtree",
@@ -228,7 +228,7 @@
       "fontFamily": "CupertinoIcons",
       "pos": 100,
       "icon": "home",
-      "key": "CJcxDubkCd"
+      "key": "yqMnELXMHF"
     },
     {
       "layout": "category",
@@ -242,7 +242,7 @@
       "showSearch": true,
       "icon": "rectangle_grid_1x2",
       "categoryLayout": "grid",
-      "key": "yuZRSQTFPr"
+      "key": "piSkhvFToM"
     },
     {
       "layout": "search",
@@ -250,15 +250,17 @@
       "size": 24,
       "pos": 300,
       "icon": "search",
-      "key": "LcIAYpGsCe"
+      "key": "DyCZCZIvrA"
     },
     {
-      "layout": "cart",
+      "layout": "wishlist",
       "fontFamily": "CupertinoIcons",
+      "fullscreen": false,
       "pos": 400,
+      "showOriginalColor": false,
+      "defaultTab": false,
       "icon": "bag",
-      "categoryLayout": "cart",
-      "key": "UJccTBohQM"
+      "key": "CqfbGoeZKD"
     },
     {
       "layout": "profile",
@@ -282,19 +284,19 @@
       "defaultTab": false,
       "showBackground": false,
       "icon": "person",
-      "key": "lsYcvHUUdk"
+      "key": "kyptfoMbud"
     }
   ],
   "Drawer": {
     "filter": 0.1,
     "logoConfig": {
-      "width": 150,
-      "height": 38,
-      "marginLeft": 20,
       "marginRight": 0,
-      "marginTop": 60,
+      "width": 150,
+      "boxFit": "fitWidth",
       "marginBottom": 10,
-      "boxFit": "fitWidth"
+      "marginTop": 60,
+      "height": 38,
+      "marginLeft": 20
     },
     "colorFilter": "ffffffff",
     "enable": true,
@@ -302,32 +304,32 @@
     "safeArea": true,
     "items": [
       {
-        "type": "home",
-        "show": true
+        "show": true,
+        "type": "home"
       },
       {
-        "type": "blog",
-        "show": true
+        "show": true,
+        "type": "blog"
       },
       {
-        "type": "categories",
-        "show": true
+        "show": true,
+        "type": "categories"
       },
       {
-        "type": "cart",
-        "show": true
+        "show": true,
+        "type": "cart"
       },
       {
-        "type": "profile",
-        "show": true
+        "show": true,
+        "type": "profile"
       },
       {
-        "type": "login",
-        "show": true
+        "show": true,
+        "type": "login"
       },
       {
-        "type": "category",
-        "show": false
+        "show": false,
+        "type": "category"
       }
     ],
     "key": "MCNkEfFwrY"
@@ -377,7 +379,7 @@
         "paddingRight": 4,
         "icon": "location",
         "type": "text",
-        "title": "TOY ZONE",
+        "title": "OrgFarm",
         "marginRight": 4,
         "avatarRadius": 100,
         "headerFontWeight": "400",
@@ -390,7 +392,7 @@
         "paddingTop": 4,
         "radius": 16,
         "fontWeight": "800",
-        "key": "cm03ohengg",
+        "key": "rUKZtorhkt",
         "backgroundColor": "#00000000",
         "headerTextOpacity": 0.5,
         "marginLeft": 4,
