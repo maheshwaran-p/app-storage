@@ -25,6 +25,7 @@
       "height": 45,
       "backgroundColor": "#FFFFFF",
       "minWidth": 0,
+      "textColor": "ff539d33",
       "backgroundGradientColor": [],
       "marginLeft": 20,
       "layout": "header_search",
@@ -193,15 +194,15 @@
       "enable": true,
       "radiusBottomRight": 0,
       "iconSize": 22,
-      "showFloatingClip": true,
+      "showFloatingClip": false,
       "paddingTop": 0,
       "isSafeArea": true,
       "TabBarFloating": {
-        "elevation": 2,
-        "color": "ff1f4751",
+        "elevation": 0,
+        "color": "ff3fc14f",
         "width": 50,
         "floatingType": "circle",
-        "location": null,
+        "location": "centerDocked",
         "isCoverMode": false,
         "position": 2,
         "notchMargin": 4,
@@ -214,7 +215,7 @@
       "radiusBottomLeft": 0,
       "alwaysShowTabBar": false,
       "marginLeft": 0,
-      "colorIcon": "ffa6b0b3",
+      "colorIcon": "ff1b5e20",
       "marginBottom": 0,
       "paddingLeft": 0,
       "marginTop": 0
@@ -228,9 +229,12 @@
     {
       "layout": "home",
       "fontFamily": "CupertinoIcons",
+      "fullscreen": false,
       "pos": 100,
+      "showOriginalColor": false,
+      "defaultTab": false,
       "icon": "home",
-      "key": "ugkpwzniPe"
+      "key": "hJQXTGGEDE"
     },
     {
       "layout": "category",
@@ -304,15 +308,16 @@
         "gid://shopify/Collection/474401014051"
       ],
       "categoryLayout": "grid",
-      "key": "LeHDUBoNrO"
+      "key": "dJKMimuUfA"
     },
     {
       "layout": "search",
       "fontFamily": "CupertinoIcons",
+      "visible": true,
       "size": 24,
       "pos": 300,
       "icon": "search",
-      "key": "MEcFYKfWoF"
+      "key": "ifwDfqJkYn"
     },
     {
       "layout": "cart",
@@ -322,10 +327,18 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "bag",
-      "key": "IvhdKdODwv"
+      "key": "gJZaeKZYZL"
     },
     {
+      "key": "fnLPckGeKH",
       "layout": "profile",
+      "icon": "person",
+      "fontFamily": "CupertinoIcons",
+      "pos": 500,
+      "visible": true,
+      "defaultTab": false,
+      "fullscreen": false,
+      "showOriginalColor": false,
       "settings": [
         "biometrics",
         "wishlist",
@@ -340,17 +353,10 @@
         "web-YmmdENsUKt",
         "web-poemEkEIeh",
         "web-ZFPdlZAuqP",
-        "web-ZpXJLnrleB"
+        "web-ZpXJLnrleB",
+        "web-mHJjyKQLlM",
+        "web-OWfLrnbHya"
       ],
-      "styleItem": "listTile",
-      "fontFamily": "CupertinoIcons",
-      "visible": true,
-      "fullscreen": false,
-      "pos": 500,
-      "showOriginalColor": false,
-      "defaultTab": false,
-      "showBackground": false,
-      "icon": "person",
       "subGeneralSetting": {
         "web-YmmdENsUKt": {
           "enableClose": false,
@@ -368,11 +374,11 @@
           "enableClose": false,
           "webViewMode": false,
           "webUrl": "https://sahithyasankar.github.io/Storage/ShippingPolicy.html",
-          "icon": "news",
+          "icon": "add_location_alt_outlined",
           "enableBackward": true,
           "title": "Shipping Policy",
           "requiredLogin": false,
-          "iconFontFamily": "CupertinoIcons",
+          "iconFontFamily": "MaterialIcons",
           "script": "",
           "enableForward": false
         },
@@ -380,7 +386,7 @@
           "enableClose": false,
           "webViewMode": false,
           "webUrl": "https://sahithyasankar.github.io/Storage/PrivacyPolicy.html",
-          "icon": "news",
+          "icon": "eye",
           "enableBackward": true,
           "title": "Privacy Policy",
           "requiredLogin": false,
@@ -392,28 +398,54 @@
           "enableClose": false,
           "webViewMode": false,
           "webUrl": "https://sahithyasankar.github.io/Storage/Return&refund.html",
-          "icon": "news",
+          "icon": "arrow_up_arrow_down_circle",
           "enableBackward": true,
           "title": "Return & Refund Policy",
           "requiredLogin": false,
           "iconFontFamily": "CupertinoIcons",
           "script": "",
           "enableForward": false
+        },
+        "web-mHJjyKQLlM": {
+          "webUrl": "https://orgfarm.store/orders",
+          "webViewMode": true,
+          "requiredLogin": false,
+          "enableForward": true,
+          "enableBackward": true,
+          "enableClose": true,
+          "script": "",
+          "icon": "news",
+          "iconFontFamily": "CupertinoIcons",
+          "title": "My Orders"
+        },
+        "web-OWfLrnbHya": {
+          "webUrl": "https://51eaa2-2.myshopify.com/account/login?return_url=%2Faccount",
+          "webViewMode": true,
+          "requiredLogin": false,
+          "enableForward": true,
+          "enableBackward": true,
+          "enableClose": true,
+          "script": "",
+          "icon": "news",
+          "iconFontFamily": "CupertinoIcons",
+          "title": "Sign In / Sign Up"
         }
       },
-      "key": "zotcQYWfPd"
+      "hideUser": true,
+      "showBackground": false,
+      "styleItem": "listTile"
     }
   ],
   "Drawer": {
     "filter": 0.1,
     "logoConfig": {
-      "marginRight": 0,
       "width": 150,
-      "boxFit": "fitWidth",
-      "marginBottom": 10,
-      "marginTop": 60,
       "height": 38,
-      "marginLeft": 20
+      "marginLeft": 20,
+      "marginRight": 0,
+      "marginTop": 60,
+      "marginBottom": 10,
+      "boxFit": "fitWidth"
     },
     "colorFilter": "ffffffff",
     "enable": true,
@@ -421,138 +453,143 @@
     "safeArea": true,
     "items": [
       {
-        "show": true,
-        "type": "home"
+        "type": "home",
+        "show": true
       },
       {
-        "show": true,
-        "type": "blog"
+        "type": "blog",
+        "show": true
       },
       {
-        "show": true,
-        "type": "categories"
+        "type": "categories",
+        "show": true
       },
       {
-        "show": true,
-        "type": "cart"
+        "type": "cart",
+        "show": true
       },
       {
-        "show": true,
-        "type": "profile"
+        "type": "profile",
+        "show": true
       },
       {
-        "show": true,
-        "type": "login"
+        "type": "login",
+        "show": false
       },
       {
-        "show": false,
-        "type": "category"
+        "type": "category",
+        "show": false
       }
     ],
-    "key": "MCNkEfFwrY"
+    "key": "QELdSHDuuB"
   },
   "AppBar": {
-    "elevation": 0,
-    "pinned": true,
     "showOnScreens": [
       "home"
     ],
     "enable": true,
+    "snap": true,
+    "pinned": true,
     "floating": true,
+    "elevation": 0,
     "alwaysShowAppBar": false,
-    "expandedItems": [],
     "items": [
       {
-        "spacingText": 3,
-        "paddingRight": 4,
-        "icon": "square_grid_2x2",
         "type": "icon",
-        "marginRight": 4,
-        "avatarRadius": 100,
-        "headerFontWeight": "400",
-        "fontFamily": "CupertinoIcons",
-        "paddingBottom": 4,
-        "headerFontSize": 16,
-        "pos": 100,
         "action": "menu",
-        "iconSize": 24,
-        "paddingTop": 4,
-        "radius": 18,
+        "pos": 100,
+        "textOpacity": 0.5,
+        "alignment": "center",
+        "fontSize": 16,
+        "fontFamily": "CupertinoIcons",
         "fontWeight": "400",
-        "key": "gbs354efgo",
+        "icon": "square_grid_2x2",
+        "iconSize": 24,
+        "size": 40,
+        "radius": 18,
+        "iconColor": "ff3fc14f",
         "backgroundColor": "0",
-        "headerTextOpacity": 0.5,
         "marginLeft": 16,
-        "size": 40,
-        "textOpacity": 0.5,
-        "fontSize": 16,
-        "marginBottom": 4,
-        "alignment": "center",
-        "paddingLeft": 4,
-        "marginTop": 4
-      },
-      {
-        "spacingText": 3,
-        "paddingRight": 4,
-        "icon": "location",
-        "type": "text",
-        "title": " OrgFarm Store",
         "marginRight": 4,
-        "avatarRadius": 100,
-        "headerFontWeight": "400",
-        "fontFamily": "CupertinoIcons",
-        "paddingBottom": 4,
-        "headerFontSize": 16,
-        "pos": 200,
-        "action": "none",
-        "iconSize": 24,
-        "paddingTop": 4,
-        "radius": 16,
-        "fontWeight": "800",
-        "key": "yTQbFWVXib",
-        "backgroundColor": "#00000000",
-        "headerTextOpacity": 0.5,
-        "textColor": "ff3fc14f",
-        "marginLeft": 4,
-        "size": 20,
-        "textOpacity": 0.8,
-        "fontSize": 18,
+        "marginTop": 4,
         "marginBottom": 4,
-        "alignment": "center",
         "paddingLeft": 4,
-        "marginTop": 4
+        "paddingRight": 4,
+        "paddingTop": 4,
+        "paddingBottom": 4,
+        "key": "YWeBUYVhAN",
+        "avatarRadius": 100,
+        "spacingText": 3,
+        "headerTextOpacity": 0.5,
+        "headerFontSize": 16,
+        "headerFontWeight": "400"
       },
       {
-        "spacingText": 3,
-        "paddingRight": 4,
-        "icon": "shopping_cart",
-        "type": "icon",
-        "marginRight": 16,
-        "avatarRadius": 100,
-        "headerFontWeight": "400",
+        "type": "location",
+        "action": "location",
+        "pos": 200,
+        "title": "pincode ",
+        "textOpacity": 0.8,
+        "alignment": "topLeft",
+        "fontSize": 18,
         "fontFamily": "CupertinoIcons",
-        "paddingBottom": 4,
-        "headerFontSize": 16,
-        "pos": 400,
-        "action": "cart",
-        "iconSize": 24,
-        "paddingTop": 4,
-        "radius": 18,
-        "fontWeight": "400",
-        "key": "swrxx0zicb",
-        "backgroundColor": "0",
+        "fontWeight": "800",
+        "textColor": "ff3fc14f",
+        "icon": "location",
+        "iconSize": 12,
+        "size": 20,
+        "radius": 13,
+        "iconColor": "ff39ae47",
+        "backgroundColor": "#00000000",
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 100,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "width": 300,
+        "height": 33.6,
+        "key": "iPcZgYHPRE",
+        "avatarRadius": 100,
+        "spacingText": 3,
         "headerTextOpacity": 0.5,
-        "marginLeft": 4,
-        "size": 40,
+        "headerFontSize": 16,
+        "headerFontWeight": "400"
+      },
+      {
+        "type": "icon",
+        "action": "cart",
+        "pos": 300,
         "textOpacity": 0.5,
-        "fontSize": 16,
-        "marginBottom": 4,
         "alignment": "center",
+        "fontSize": 16,
+        "fontFamily": "CupertinoIcons",
+        "fontWeight": "400",
+        "icon": "shopping_cart",
+        "iconSize": 24,
+        "size": 40,
+        "radius": 18,
+        "iconColor": "ff3fc14f",
+        "backgroundColor": "0",
+        "marginLeft": 4,
+        "marginRight": 16,
+        "marginTop": 4,
+        "marginBottom": 4,
         "paddingLeft": 4,
-        "marginTop": 4
+        "paddingRight": 4,
+        "paddingTop": 4,
+        "paddingBottom": 4,
+        "key": "pdmztznYdN",
+        "avatarRadius": 100,
+        "spacingText": 3,
+        "headerTextOpacity": 0.5,
+        "headerFontSize": 16,
+        "headerFontWeight": "400"
       }
     ],
-    "snap": true
+    "expandedItems": []
   },
   "VerticalLayout": {
     "showCartIcon": true,
