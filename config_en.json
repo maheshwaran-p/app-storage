@@ -118,6 +118,13 @@
     },
     {
       "showCartIcon": false,
+      "boxShadow": {
+        "spreadRadius": 10,
+        "colorOpacity": 0.1,
+        "blurRadius": 17.17171717171717,
+        "x": -1,
+        "y": 1
+      },
       "imageBoxfit": "cover",
       "showStockStatus": true,
       "featured": false,
@@ -126,12 +133,12 @@
       "parallax": false,
       "columns": 0,
       "hideStore": false,
-      "vPadding": 0,
-      "showQuantity": true,
+      "vPadding": 3,
+      "showQuantity": false,
       "showHeart": false,
-      "hMargin": 6,
+      "hMargin": 0,
       "parallaxImageRatio": 1.2,
-      "showCartButtonWithQuantity": false,
+      "showCartButtonWithQuantity": true,
       "vMargin": 0,
       "showOnlyImage": false,
       "onSale": false,
@@ -143,7 +150,7 @@
       "showCartIconColor": false,
       "useSort": false,
       "orderby": "menu_order",
-      "hPadding": 0,
+      "hPadding": 10,
       "hidePrice": false,
       "rows": 1,
       "enableBottomAddToCart": true,
@@ -156,7 +163,7 @@
       "cardDesign": "card",
       "backgroundRadius": 10,
       "isSnapping": false,
-      "showCartButton": true,
+      "showCartButton": false,
       "name": "Collections",
       "cartIconRadius": 9,
       "enableAutoSliding": false,
@@ -234,7 +241,7 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "home",
-      "key": "hJQXTGGEDE"
+      "key": "TUnUYngrTJ"
     },
     {
       "layout": "category",
@@ -308,7 +315,7 @@
         "gid://shopify/Collection/474401014051"
       ],
       "categoryLayout": "grid",
-      "key": "dJKMimuUfA"
+      "key": "TESzphggga"
     },
     {
       "layout": "search",
@@ -317,7 +324,7 @@
       "size": 24,
       "pos": 300,
       "icon": "search",
-      "key": "ifwDfqJkYn"
+      "key": "BAcmDVaLBu"
     },
     {
       "layout": "cart",
@@ -327,18 +334,10 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "bag",
-      "key": "gJZaeKZYZL"
+      "key": "LzEikiWTMd"
     },
     {
-      "key": "fnLPckGeKH",
       "layout": "profile",
-      "icon": "person",
-      "fontFamily": "CupertinoIcons",
-      "pos": 500,
-      "visible": true,
-      "defaultTab": false,
-      "fullscreen": false,
-      "showOriginalColor": false,
       "settings": [
         "biometrics",
         "wishlist",
@@ -353,10 +352,17 @@
         "web-YmmdENsUKt",
         "web-poemEkEIeh",
         "web-ZFPdlZAuqP",
-        "web-ZpXJLnrleB",
-        "web-mHJjyKQLlM",
-        "web-OWfLrnbHya"
+        "web-ZpXJLnrleB"
       ],
+      "styleItem": "listTile",
+      "fontFamily": "CupertinoIcons",
+      "visible": true,
+      "fullscreen": false,
+      "pos": 500,
+      "showOriginalColor": false,
+      "defaultTab": false,
+      "showBackground": false,
+      "icon": "person",
       "subGeneralSetting": {
         "web-YmmdENsUKt": {
           "enableClose": false,
@@ -382,6 +388,30 @@
           "script": "",
           "enableForward": false
         },
+        "web-OWfLrnbHya": {
+          "enableClose": true,
+          "webViewMode": true,
+          "webUrl": "https://51eaa2-2.myshopify.com/account/login?return_url=%2Faccount",
+          "icon": "news",
+          "enableBackward": true,
+          "title": "Sign In / Sign Up",
+          "requiredLogin": false,
+          "iconFontFamily": "CupertinoIcons",
+          "script": "",
+          "enableForward": true
+        },
+        "web-mHJjyKQLlM": {
+          "enableClose": true,
+          "webViewMode": true,
+          "webUrl": "https://orgfarm.store/",
+          "icon": "news",
+          "enableBackward": true,
+          "title": "My Orders",
+          "requiredLogin": false,
+          "iconFontFamily": "CupertinoIcons",
+          "script": "",
+          "enableForward": true
+        },
         "web-ZpXJLnrleB": {
           "enableClose": false,
           "webViewMode": false,
@@ -405,47 +435,21 @@
           "iconFontFamily": "CupertinoIcons",
           "script": "",
           "enableForward": false
-        },
-        "web-mHJjyKQLlM": {
-          "webUrl": "https://orgfarm.store/orders",
-          "webViewMode": true,
-          "requiredLogin": false,
-          "enableForward": true,
-          "enableBackward": true,
-          "enableClose": true,
-          "script": "",
-          "icon": "news",
-          "iconFontFamily": "CupertinoIcons",
-          "title": "My Orders"
-        },
-        "web-OWfLrnbHya": {
-          "webUrl": "https://51eaa2-2.myshopify.com/account/login?return_url=%2Faccount",
-          "webViewMode": true,
-          "requiredLogin": false,
-          "enableForward": true,
-          "enableBackward": true,
-          "enableClose": true,
-          "script": "",
-          "icon": "news",
-          "iconFontFamily": "CupertinoIcons",
-          "title": "Sign In / Sign Up"
         }
       },
-      "hideUser": true,
-      "showBackground": false,
-      "styleItem": "listTile"
+      "key": "woECKyoOWk"
     }
   ],
   "Drawer": {
     "filter": 0.1,
     "logoConfig": {
-      "width": 150,
-      "height": 38,
-      "marginLeft": 20,
       "marginRight": 0,
-      "marginTop": 60,
+      "width": 150,
+      "boxFit": "fitWidth",
       "marginBottom": 10,
-      "boxFit": "fitWidth"
+      "marginTop": 60,
+      "height": 38,
+      "marginLeft": 20
     },
     "colorFilter": "ffffffff",
     "enable": true,
@@ -453,143 +457,143 @@
     "safeArea": true,
     "items": [
       {
-        "type": "home",
-        "show": true
+        "show": true,
+        "type": "home"
       },
       {
-        "type": "blog",
-        "show": true
+        "show": true,
+        "type": "blog"
       },
       {
-        "type": "categories",
-        "show": true
+        "show": true,
+        "type": "categories"
       },
       {
-        "type": "cart",
-        "show": true
+        "show": true,
+        "type": "cart"
       },
       {
-        "type": "profile",
-        "show": true
+        "show": true,
+        "type": "profile"
       },
       {
-        "type": "login",
-        "show": false
+        "show": false,
+        "type": "login"
       },
       {
-        "type": "category",
-        "show": false
+        "show": false,
+        "type": "category"
       }
     ],
     "key": "QELdSHDuuB"
   },
   "AppBar": {
+    "elevation": 0,
+    "pinned": true,
     "showOnScreens": [
       "home"
     ],
     "enable": true,
-    "snap": true,
-    "pinned": true,
     "floating": true,
-    "elevation": 0,
     "alwaysShowAppBar": false,
+    "expandedItems": [],
     "items": [
       {
-        "type": "icon",
-        "action": "menu",
-        "pos": 100,
-        "textOpacity": 0.5,
-        "alignment": "center",
-        "fontSize": 16,
-        "fontFamily": "CupertinoIcons",
-        "fontWeight": "400",
+        "spacingText": 3,
+        "paddingRight": 4,
         "icon": "square_grid_2x2",
-        "iconSize": 24,
-        "size": 40,
-        "radius": 18,
-        "iconColor": "ff3fc14f",
-        "backgroundColor": "0",
-        "marginLeft": 16,
-        "marginRight": 4,
-        "marginTop": 4,
-        "marginBottom": 4,
-        "paddingLeft": 4,
-        "paddingRight": 4,
-        "paddingTop": 4,
-        "paddingBottom": 4,
-        "key": "YWeBUYVhAN",
-        "avatarRadius": 100,
-        "spacingText": 3,
-        "headerTextOpacity": 0.5,
-        "headerFontSize": 16,
-        "headerFontWeight": "400"
-      },
-      {
-        "type": "location",
-        "action": "location",
-        "pos": 200,
-        "title": "pincode ",
-        "textOpacity": 0.8,
-        "alignment": "topLeft",
-        "fontSize": 18,
-        "fontFamily": "CupertinoIcons",
-        "fontWeight": "800",
-        "textColor": "ff3fc14f",
-        "icon": "location",
-        "iconSize": 12,
-        "size": 20,
-        "radius": 13,
-        "iconColor": "ff39ae47",
-        "backgroundColor": "#00000000",
-        "marginLeft": 0,
-        "marginRight": 0,
-        "marginTop": 0,
-        "marginBottom": 0,
-        "paddingLeft": 0,
-        "paddingRight": 100,
-        "paddingTop": 0,
-        "paddingBottom": 0,
-        "width": 300,
-        "height": 33.6,
-        "key": "iPcZgYHPRE",
-        "avatarRadius": 100,
-        "spacingText": 3,
-        "headerTextOpacity": 0.5,
-        "headerFontSize": 16,
-        "headerFontWeight": "400"
-      },
-      {
         "type": "icon",
-        "action": "cart",
-        "pos": 300,
-        "textOpacity": 0.5,
-        "alignment": "center",
-        "fontSize": 16,
-        "fontFamily": "CupertinoIcons",
-        "fontWeight": "400",
-        "icon": "shopping_cart",
-        "iconSize": 24,
-        "size": 40,
-        "radius": 18,
-        "iconColor": "ff3fc14f",
-        "backgroundColor": "0",
-        "marginLeft": 4,
-        "marginRight": 16,
-        "marginTop": 4,
-        "marginBottom": 4,
-        "paddingLeft": 4,
-        "paddingRight": 4,
-        "paddingTop": 4,
-        "paddingBottom": 4,
-        "key": "pdmztznYdN",
+        "marginRight": 4,
         "avatarRadius": 100,
-        "spacingText": 3,
-        "headerTextOpacity": 0.5,
+        "headerFontWeight": "400",
+        "fontFamily": "CupertinoIcons",
+        "paddingBottom": 4,
         "headerFontSize": 16,
-        "headerFontWeight": "400"
+        "pos": 100,
+        "action": "menu",
+        "iconSize": 24,
+        "paddingTop": 4,
+        "radius": 18,
+        "fontWeight": "400",
+        "key": "YWeBUYVhAN",
+        "backgroundColor": "0",
+        "headerTextOpacity": 0.5,
+        "marginLeft": 16,
+        "size": 40,
+        "iconColor": "ff3fc14f",
+        "textOpacity": 0.5,
+        "fontSize": 16,
+        "marginBottom": 4,
+        "alignment": "center",
+        "paddingLeft": 4,
+        "marginTop": 4
+      },
+      {
+        "spacingText": 3,
+        "paddingRight": 100,
+        "icon": "location",
+        "type": "location",
+        "title": "pincode ",
+        "marginRight": 0,
+        "avatarRadius": 100,
+        "headerFontWeight": "400",
+        "fontFamily": "CupertinoIcons",
+        "paddingBottom": 0,
+        "headerFontSize": 16,
+        "pos": 200,
+        "action": "location",
+        "iconSize": 12,
+        "paddingTop": 0,
+        "radius": 13,
+        "fontWeight": "800",
+        "key": "iPcZgYHPRE",
+        "height": 33.6,
+        "backgroundColor": "#00000000",
+        "headerTextOpacity": 0.5,
+        "textColor": "ff3fc14f",
+        "marginLeft": 0,
+        "size": 20,
+        "iconColor": "ff39ae47",
+        "width": 300,
+        "textOpacity": 0.8,
+        "fontSize": 18,
+        "marginBottom": 0,
+        "alignment": "topLeft",
+        "paddingLeft": 0,
+        "marginTop": 0
+      },
+      {
+        "spacingText": 3,
+        "paddingRight": 4,
+        "icon": "shopping_cart",
+        "type": "icon",
+        "marginRight": 16,
+        "avatarRadius": 100,
+        "headerFontWeight": "400",
+        "fontFamily": "CupertinoIcons",
+        "paddingBottom": 4,
+        "headerFontSize": 16,
+        "pos": 300,
+        "action": "cart",
+        "iconSize": 24,
+        "paddingTop": 4,
+        "radius": 18,
+        "fontWeight": "400",
+        "key": "pdmztznYdN",
+        "backgroundColor": "0",
+        "headerTextOpacity": 0.5,
+        "marginLeft": 4,
+        "size": 40,
+        "iconColor": "ff3fc14f",
+        "textOpacity": 0.5,
+        "fontSize": 16,
+        "marginBottom": 4,
+        "alignment": "center",
+        "paddingLeft": 4,
+        "marginTop": 4
       }
     ],
-    "expandedItems": []
+    "snap": true
   },
   "VerticalLayout": {
     "showCartIcon": true,
