@@ -154,7 +154,7 @@
       "hidePrice": false,
       "rows": 1,
       "enableBottomAddToCart": true,
-      "layout": "threeColumn",
+      "layout": "twoColumn",
       "enableRating": true,
       "imageRatio": 0.7,
       "useCircularRadius": true,
@@ -206,7 +206,7 @@
       "isSafeArea": true,
       "TabBarFloating": {
         "elevation": 0,
-        "color": "ff3fc14f",
+        "color": "ff339d40",
         "width": 50,
         "floatingType": "circle",
         "location": "centerDocked",
@@ -217,7 +217,7 @@
         "height": 50
       },
       "showFloating": true,
-      "colorActiveIcon": "ff3fc14f",
+      "colorActiveIcon": "ff39ae47",
       "colorCart": null,
       "radiusBottomLeft": 0,
       "alwaysShowTabBar": false,
@@ -241,7 +241,7 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "home",
-      "key": "TUnUYngrTJ"
+      "key": "ZChxQQpzgA"
     },
     {
       "layout": "category",
@@ -315,7 +315,7 @@
         "gid://shopify/Collection/474401014051"
       ],
       "categoryLayout": "grid",
-      "key": "TESzphggga"
+      "key": "AHmWKzQdxx"
     },
     {
       "layout": "search",
@@ -324,7 +324,7 @@
       "size": 24,
       "pos": 300,
       "icon": "search",
-      "key": "BAcmDVaLBu"
+      "key": "aqowWDfVVT"
     },
     {
       "layout": "cart",
@@ -334,7 +334,7 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "bag",
-      "key": "LzEikiWTMd"
+      "key": "tTmgVUHUDH"
     },
     {
       "layout": "profile",
@@ -437,7 +437,7 @@
           "enableForward": false
         }
       },
-      "key": "woECKyoOWk"
+      "key": "zOJOewnRlh"
     }
   ],
   "Drawer": {
@@ -477,7 +477,7 @@
         "type": "profile"
       },
       {
-        "show": false,
+        "show": true,
         "type": "login"
       },
       {
@@ -485,7 +485,7 @@
         "type": "category"
       }
     ],
-    "key": "QELdSHDuuB"
+    "key": "ZKgibJbVkv"
   },
   "AppBar": {
     "elevation": 0,
@@ -598,13 +598,14 @@
   "VerticalLayout": {
     "showCartIcon": true,
     "boxShadow": {
-      "spreadRadius": 5.05050505050505,
+      "spreadRadius": 8.080808080808081,
       "colorOpacity": 0.1,
-      "blurRadius": 8.080808080808081,
-      "x": 0,
-      "y": 10
+      "blurRadius": 9.090909090909092,
+      "x": -7,
+      "y": -7
     },
     "showStockStatus": true,
+    "titleLine": 2,
     "hideStore": false,
     "vPadding": 2,
     "showQuantity": false,
@@ -624,7 +625,7 @@
     "isVertical": true,
     "hideTitle": false,
     "borderRadius": 13,
-    "cardDesign": "card",
+    "cardDesign": "quiltedCard",
     "showCartButton": false,
     "name": "",
     "cartIconRadius": 12,
