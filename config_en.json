@@ -138,7 +138,7 @@
       "showHeart": false,
       "hMargin": 0,
       "parallaxImageRatio": 1.2,
-      "showCartButtonWithQuantity": true,
+      "showCartButtonWithQuantity": false,
       "vMargin": 0,
       "showOnlyImage": false,
       "onSale": false,
@@ -153,8 +153,8 @@
       "hPadding": 10,
       "hidePrice": false,
       "rows": 1,
-      "enableBottomAddToCart": true,
-      "layout": "twoColumn",
+      "enableBottomAddToCart": false,
+      "layout": "recentView",
       "enableRating": true,
       "imageRatio": 0.7,
       "useCircularRadius": true,
@@ -163,7 +163,7 @@
       "cardDesign": "card",
       "backgroundRadius": 10,
       "isSnapping": false,
-      "showCartButton": false,
+      "showCartButton": true,
       "name": "Collections",
       "cartIconRadius": 9,
       "enableAutoSliding": false,
@@ -206,7 +206,7 @@
       "isSafeArea": true,
       "TabBarFloating": {
         "elevation": 0,
-        "color": "ff339d40",
+        "color": "ff39ae47",
         "width": 50,
         "floatingType": "circle",
         "location": "centerDocked",
@@ -241,7 +241,7 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "home",
-      "key": "ZChxQQpzgA"
+      "key": "xbEikjstfp"
     },
     {
       "layout": "category",
@@ -315,7 +315,7 @@
         "gid://shopify/Collection/474401014051"
       ],
       "categoryLayout": "grid",
-      "key": "AHmWKzQdxx"
+      "key": "edzXOfPXEE"
     },
     {
       "layout": "search",
@@ -324,7 +324,7 @@
       "size": 24,
       "pos": 300,
       "icon": "search",
-      "key": "aqowWDfVVT"
+      "key": "IYVYwSxpBt"
     },
     {
       "layout": "cart",
@@ -334,7 +334,7 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "bag",
-      "key": "tTmgVUHUDH"
+      "key": "eqKSwxCsUX"
     },
     {
       "layout": "profile",
@@ -437,7 +437,7 @@
           "enableForward": false
         }
       },
-      "key": "zOJOewnRlh"
+      "key": "ehIeBAPlYX"
     }
   ],
   "Drawer": {
@@ -598,14 +598,13 @@
   "VerticalLayout": {
     "showCartIcon": true,
     "boxShadow": {
-      "spreadRadius": 8.080808080808081,
+      "spreadRadius": 5.05050505050505,
       "colorOpacity": 0.1,
-      "blurRadius": 9.090909090909092,
-      "x": -7,
-      "y": -7
+      "blurRadius": 8.080808080808081,
+      "x": 0,
+      "y": 10
     },
     "showStockStatus": true,
-    "titleLine": 2,
     "hideStore": false,
     "vPadding": 2,
     "showQuantity": false,
