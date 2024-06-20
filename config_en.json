@@ -35,6 +35,7 @@
       "alignment": "centerLeft",
       "paddingLeft": 5,
       "marginTop": 10,
+      "preview_data": false,
       "font": "Roboto"
     },
     {
@@ -114,7 +115,8 @@
           "products": []
         }
       ],
-      "marginTop": 0
+      "marginTop": 0,
+      "preview_data": false
     },
     {
       "showCartIcon": false,
@@ -153,7 +155,7 @@
       "hPadding": 10,
       "hidePrice": false,
       "rows": 1,
-      "enableBottomAddToCart": false,
+      "enableBottomAddToCart": true,
       "layout": "recentView",
       "enableRating": true,
       "imageRatio": 0.7,
@@ -167,65 +169,66 @@
       "name": "Collections",
       "cartIconRadius": 9,
       "enableAutoSliding": false,
-      "hideEmptyProductListRating": false
+      "hideEmptyProductListRating": false,
+      "preview_data": false
     }
   ],
   "Setting": {
     "TabBarConfig": {
-      "enable": true,
-      "showMinimize": false,
-      "isSafeArea": true,
-      "color": null,
-      "colorCart": null,
-      "colorIcon": "ff1b5e20",
-      "colorActiveIcon": "ff39ae47",
-      "iconSize": 22,
-      "indicatorStyle": "none",
-      "showFloatingClip": false,
-      "showFloating": true,
       "enableOnTop": false,
-      "enableDivider": true,
+      "color": null,
       "radiusTopLeft": 0,
-      "radiusTopRight": 0,
-      "radiusBottomLeft": 0,
-      "radiusBottomRight": 0,
-      "paddingLeft": 0,
-      "paddingRight": 0,
-      "paddingBottom": 0,
-      "paddingTop": 0,
-      "marginTop": 0,
-      "marginBottom": 0,
-      "marginLeft": 0,
-      "marginRight": 0,
       "bottomBarStyle": "static",
-      "alwaysShowTabBar": false,
+      "paddingRight": 0,
+      "radiusTopRight": 0,
       "TabBarIndicator": {
-        "height": 0,
-        "tabPosition": "bottom",
-        "topRightRadius": 0,
-        "topLeftRadius": 0,
-        "bottomRightRadius": 0,
-        "bottomLeftRadius": 0,
+        "strokeWidth": 0,
         "color": null,
         "horizontalPadding": 0,
-        "verticalPadding": 0,
-        "strokeWidth": 0,
-        "radius": 0,
+        "topRightRadius": 0,
+        "tabPosition": "bottom",
+        "bottomRightRadius": 0,
+        "bottomLeftRadius": 0,
+        "topLeftRadius": 0,
+        "paintingStyle": "fill",
         "distanceFromCenter": 0,
-        "paintingStyle": "fill"
+        "radius": 0,
+        "verticalPadding": 0,
+        "height": 0
       },
+      "showMinimize": false,
+      "marginRight": 0,
+      "enableDivider": true,
+      "paddingBottom": 0,
+      "indicatorStyle": "none",
+      "enable": true,
+      "radiusBottomRight": 0,
+      "iconSize": 22,
+      "showFloatingClip": false,
+      "paddingTop": 0,
+      "isSafeArea": true,
       "TabBarFloating": {
-        "position": 2,
-        "radius": 50,
-        "color": "ff39ae47",
-        "location": "centerDocked",
-        "width": 50,
-        "height": 50,
         "elevation": 0,
+        "color": "ff39ae47",
+        "width": 50,
         "floatingType": "circle",
+        "location": "centerDocked",
+        "isCoverMode": false,
+        "position": 2,
         "notchMargin": 4,
-        "isCoverMode": false
-      }
+        "radius": 50,
+        "height": 50
+      },
+      "showFloating": true,
+      "colorActiveIcon": "ff39ae47",
+      "colorCart": null,
+      "radiusBottomLeft": 0,
+      "alwaysShowTabBar": false,
+      "marginLeft": 0,
+      "colorIcon": "ff1b5e20",
+      "marginBottom": 0,
+      "paddingLeft": 0,
+      "marginTop": 0
     },
     "FontFamily": "Figtree",
     "FontHeader": "Figtree",
@@ -241,21 +244,21 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "home",
-      "key": "xbEikjstfp"
+      "key": "qpBFOpcxVe"
     },
     {
-      "key": "tkeAuaSSda",
       "layout": "category",
-      "icon": "rectangle_grid_1x2",
-      "fontFamily": "CupertinoIcons",
-      "pos": 200,
-      "defaultTab": false,
-      "fullscreen": false,
-      "showOriginalColor": false,
-      "categoryLayout": "grid",
-      "parallax": false,
       "parallaxImageRatio": 1.2,
-      "showSearch": true
+      "fontFamily": "CupertinoIcons",
+      "fullscreen": false,
+      "pos": 200,
+      "showOriginalColor": false,
+      "parallax": false,
+      "defaultTab": false,
+      "showSearch": true,
+      "icon": "rectangle_grid_1x2",
+      "categoryLayout": "grid",
+      "key": "FxdEbxlaeh"
     },
     {
       "layout": "search",
@@ -264,7 +267,7 @@
       "size": 24,
       "pos": 300,
       "icon": "search",
-      "key": "IYVYwSxpBt"
+      "key": "EyHCTYiuKa"
     },
     {
       "layout": "cart",
@@ -274,10 +277,10 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "bag",
-      "key": "eqKSwxCsUX"
+      "key": "dFvGwipilD"
     },
     {
-      "key": "dunTBZIsXD",
+      "key": "pDomDjbQYv",
       "layout": "profile",
       "icon": "person",
       "fontFamily": "CupertinoIcons",
@@ -290,8 +293,6 @@
         "biometrics",
         "wishlist",
         "notifications",
-        "language",
-        "currencies",
         "order",
         "rating",
         "privacy",
@@ -304,28 +305,28 @@
       ],
       "subGeneralSetting": {
         "web-YmmdENsUKt": {
-          "webUrl": "https://51eaa2-2.myshopify.com/pages/terms-and-conditions",
-          "webViewMode": true,
-          "requiredLogin": false,
-          "enableForward": true,
-          "enableBackward": true,
           "enableClose": true,
-          "script": "",
+          "webViewMode": true,
+          "webUrl": "https://51eaa2-2.myshopify.com/pages/terms-and-conditions",
           "icon": "news",
+          "enableBackward": true,
+          "title": "Terms & Conditions",
+          "requiredLogin": false,
           "iconFontFamily": "CupertinoIcons",
-          "title": "Terms & Conditions"
+          "script": "",
+          "enableForward": true
         },
         "web-poemEkEIeh": {
-          "webUrl": "https://51eaa2-2.myshopify.com/pages/shipping-policy",
-          "webViewMode": true,
-          "requiredLogin": false,
-          "enableForward": true,
-          "enableBackward": true,
           "enableClose": true,
-          "script": "",
+          "webViewMode": true,
+          "webUrl": "https://51eaa2-2.myshopify.com/pages/shipping-policy",
           "icon": "add_location_alt_outlined",
+          "enableBackward": true,
+          "title": "Shipping Policy",
+          "requiredLogin": false,
           "iconFontFamily": "MaterialIcons",
-          "title": "Shipping Policy"
+          "script": "",
+          "enableForward": true
         },
         "web-OWfLrnbHya": {
           "enableClose": true,
@@ -352,28 +353,28 @@
           "enableForward": true
         },
         "web-ZpXJLnrleB": {
-          "webUrl": "https://51eaa2-2.myshopify.com/pages/privacy-policy",
-          "webViewMode": true,
-          "requiredLogin": false,
-          "enableForward": true,
-          "enableBackward": true,
           "enableClose": true,
-          "script": "",
+          "webViewMode": true,
+          "webUrl": "https://51eaa2-2.myshopify.com/pages/privacy-policy",
           "icon": "eye",
+          "enableBackward": true,
+          "title": "Privacy Policy",
+          "requiredLogin": false,
           "iconFontFamily": "CupertinoIcons",
-          "title": "Privacy Policy"
+          "script": "",
+          "enableForward": true
         },
         "web-ZFPdlZAuqP": {
-          "webUrl": "https://51eaa2-2.myshopify.com/pages/return-refund-policy",
-          "webViewMode": true,
-          "requiredLogin": false,
-          "enableForward": true,
-          "enableBackward": true,
           "enableClose": true,
-          "script": "",
+          "webViewMode": true,
+          "webUrl": "https://51eaa2-2.myshopify.com/pages/return-refund-policy",
           "icon": "arrow_up_arrow_down_circle",
+          "enableBackward": true,
+          "title": "Return & Refund Policy",
+          "requiredLogin": false,
           "iconFontFamily": "CupertinoIcons",
-          "title": "Return & Refund Policy"
+          "script": "",
+          "enableForward": true
         }
       },
       "showBackground": false,
