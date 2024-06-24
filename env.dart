@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_single_quotes, lines_longer_than_80_chars final
 Map<String, dynamic> environment = {
-  "appConfig": "https://maheshwaran-p.github.io/app-storage/config_en.json",
+  "appConfig": "lib/config/config_en.json",
   "serverConfig": {
     "url": "https://51eaa2-2.myshopify.com",
     "type": "shopify",
@@ -18,7 +18,6 @@ Map<String, dynamic> environment = {
   "phoneNumberConfig": {
     "dialCodeDefault": "+1",
     "customCountryList": [],
-    "formatInput": false,
     "selectorFlagAsPrefixIcon": true,
     "enable": false,
     "countryCodeDefault": "US",
@@ -167,7 +166,7 @@ Map<String, dynamic> environment = {
     "IsRequiredSiteSelection": true,
     "EnableDeliveryDateOnCheckout": true,
     "EnableNewSMSLogin": false,
-    "EnableBottomAddToCart": false,
+    "EnableBottomAddToCart": true,
     "inAppWebView": false,
     "EnableWOOCSCurrencySwitcher": true,
     "enableProductBackdrop": false,
@@ -251,7 +250,7 @@ Map<String, dynamic> environment = {
       "iOSBundleId": "com.inspireui.mstore.flutter"
     }
   },
-  "oneSignalKey": {"enable": false, "appID": ""},
+  "oneSignalKey": {"apiKey": null, "enable": false, "appID": ""},
   "onBoardingConfig": {
     "data": [
       {
@@ -813,47 +812,47 @@ Map<String, dynamic> environment = {
     "order": "asc"
   },
   "productDetail": {
-    "showRelatedProduct": false,
-    "showStockStatus": true,
-    "boxFit": "cover",
-    "showQuantityInList": false,
-    "attributeLayout": "inline",
-    "alwaysShowBuyButton": true,
-    "ForceWhiteBackground": false,
-    "expandCategories": true,
-    "enableReview": false,
-    "showRating": false,
-    "showSku": true,
-    "SliderShowGoBackButton": true,
-    "expandBrands": true,
+    "height": 0.7031921029788011,
+    "marginTop": 44.57879317434211,
     "safeArea": false,
+    "attributeLayout": "inline",
     "buyButtonStyle": "normal",
-    "showAddToCartInSearchResult": true,
-    "height": 0.6,
-    "expandReviews": true,
-    "attributeImagesSize": 50,
-    "showProductTags": false,
-    "productListItemHeight": 125,
-    "productMetaDataKey": "",
-    "showProductCategories": false,
-    "showRecentProduct": true,
-    "hideInvalidAttributes": false,
+    "showVideo": true,
+    "showThumbnailAtLeast": 1,
     "layout": "flatStyle",
-    "showStockQuantity": false,
-    "expandInfors": true,
-    "ShowSelectedImageVariant": true,
     "borderRadius": 3,
-    "allowMultiple": false,
+    "ShowSelectedImageVariant": true,
+    "ForceWhiteBackground": false,
+    "enableReview": false,
+    "attributeImagesSize": 50,
+    "showSku": true,
+    "showStockStatus": true,
+    "showStockQuantity": false,
+    "showRating": false,
+    "showProductCategories": false,
+    "showProductTags": false,
+    "hideInvalidAttributes": false,
     "ShowImageGallery": true,
     "autoPlayGallery": false,
-    "showVideo": true,
-    "SliderIndicatorType": "number",
-    "expandTags": false,
+    "allowMultiple": false,
+    "showQuantityInList": false,
+    "showAddToCartInSearchResult": true,
+    "productListItemHeight": 125,
     "limitDayBooking": 14,
+    "boxFit": "cover",
+    "SliderShowGoBackButton": true,
+    "SliderIndicatorType": "number",
+    "productMetaDataKey": "",
+    "showRelatedProduct": false,
+    "showRecentProduct": true,
     "productImageLayout": "page",
-    "marginTop": 0,
-    "showThumbnailAtLeast": 1,
-    "expandDescription": true
+    "expandBrands": true,
+    "expandDescription": true,
+    "expandInfors": true,
+    "expandCategories": true,
+    "expandTags": false,
+    "expandReviews": true,
+    "alwaysShowBuyButton": true
   },
   "blogDetail": {
     "showAuthorInfo": true,
@@ -906,23 +905,48 @@ Map<String, dynamic> environment = {
   },
   "notStrictVisibleVariant": true,
   "configChat": {
-    "EnableSmartChat": true,
-    "enableVendorChat": true,
-    "UseRealtimeChat": false,
     "showOnScreens": ["profile"],
     "hideOnScreens": [],
+    "enableVendorChat": true,
+    "EnableSmartChat": true,
+    "UseRealtimeChat": false,
     "version": "2"
   },
   "smartChat": [
     {
-      "app": "tel:+911800 1200 907",
-      "description": "Call Us",
-      "iconData": "phone"
+      "app": "firebase",
+      "imageData":
+          "https://trello.com/1/cards/611a38c89ebde41ec7cf10e2/attachments/611a392cceb1b534aa92a83e/previews/611a392dceb1b534aa92a84d/download",
+      "description": "Realtime Chat"
     },
     {
-      "app": "https://wa.me/9170922 11100",
-      "description": "Whatsapp Only ",
+      "app": "chatGPT",
+      "imageData": "https://i.imgur.com/pp1qlPd.png",
+      "description": "Chat GPT"
+    },
+    {
+      "app": "https://wa.me/849908854",
+      "description": "WhatsApp",
       "iconData": "whatsapp"
+    },
+    {"app": "tel:8499999999", "description": "Call Us", "iconData": "phone"},
+    {"app": "sms://8499999999", "description": "Send SMS", "iconData": "sms"},
+    {
+      "app": "https://tawk.to/chat/5d830419c22bdd393bb69888/default",
+      "description": "Tawk Chat",
+      "iconData": "whatsapp"
+    },
+    {
+      "app": "http://m.me/inspireui",
+      "description": "Facebook Chat",
+      "iconData": "facebookMessenger"
+    },
+    {
+      "app":
+          "https://twitter.com/messages/compose?recipient_id=821597032011931648",
+      "imageData":
+          "https://trello.com/1/cards/611a38c89ebde41ec7cf10e2/attachments/611a38d026894f10dc1091c8/previews/611a38d126894f10dc1091d6/download",
+      "description": "Twitter Chat"
     }
   ],
   "adminEmail": "admininspireui@gmail.com",
