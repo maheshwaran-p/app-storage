@@ -13,7 +13,7 @@
       "paddingRight": 15,
       "title": "Discover pure goodness !",
       "type": "static",
-      "enableBackground": false,
+      "enableBackground": true,
       "marginRight": 20,
       "paddingBottom": 0,
       "showSearch": true,
@@ -42,7 +42,7 @@
       "boxShadow": null,
       "parallax": false,
       "doubleTapToFullScreen": false,
-      "enableBackground": false,
+      "enableBackground": true,
       "isHorizontal": false,
       "fit": "fitWidth",
       "marginRight": null,
@@ -155,7 +155,7 @@
       "hPadding": 10,
       "hidePrice": false,
       "rows": 1,
-      "enableBottomAddToCart": false,
+      "enableBottomAddToCart": true,
       "layout": "recentView",
       "enableRating": true,
       "imageRatio": 0.7,
@@ -245,7 +245,7 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "home",
-      "key": "yRpXvBZqys"
+      "key": "bPxoQLnOQg"
     },
     {
       "layout": "category",
@@ -326,7 +326,7 @@
         "gid://shopify/Collection/474783809827"
       ],
       "categoryLayout": "animation",
-      "key": "TblsZuhPOm"
+      "key": "NlwDDNebWm"
     },
     {
       "layout": "search",
@@ -335,7 +335,7 @@
       "size": 24,
       "pos": 300,
       "icon": "search",
-      "key": "FuXVPlmcsg"
+      "key": "ZMdDdhhHRf"
     },
     {
       "layout": "cart",
@@ -345,10 +345,10 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "bag",
-      "key": "TlSepbLKFX"
+      "key": "dFTriJOyIR"
     },
     {
-      "key": "jFNPoSdUVF",
+      "key": "eITyHrBnRk",
       "layout": "profile",
       "icon": "person",
       "fontFamily": "CupertinoIcons",
@@ -369,8 +369,7 @@
         "web-YmmdENsUKt",
         "web-poemEkEIeh",
         "web-ZFPdlZAuqP",
-        "web-ZpXJLnrleB",
-        "web-OWfLrnbHya"
+        "web-ZpXJLnrleB"
       ],
       "subGeneralSetting": {
         "web-YmmdENsUKt": {
@@ -453,13 +452,13 @@
   "Drawer": {
     "filter": 0.1,
     "logoConfig": {
-      "marginRight": 0,
       "width": 150,
-      "boxFit": "fitWidth",
-      "marginBottom": 10,
-      "marginTop": 60,
       "height": 38,
-      "marginLeft": 20
+      "marginLeft": 20,
+      "marginRight": 0,
+      "marginTop": 60,
+      "marginBottom": 10,
+      "boxFit": "fitWidth"
     },
     "colorFilter": "ffffffff",
     "enable": true,
@@ -467,35 +466,35 @@
     "safeArea": true,
     "items": [
       {
-        "show": true,
-        "type": "home"
+        "type": "home",
+        "show": true
       },
       {
-        "show": true,
-        "type": "blog"
+        "type": "blog",
+        "show": true
       },
       {
-        "show": true,
-        "type": "categories"
+        "type": "categories",
+        "show": true
       },
       {
-        "show": true,
-        "type": "cart"
+        "type": "cart",
+        "show": true
       },
       {
-        "show": true,
-        "type": "profile"
+        "type": "profile",
+        "show": true
       },
       {
-        "show": false,
-        "type": "login"
+        "type": "login",
+        "show": true
       },
       {
-        "show": false,
-        "type": "category"
+        "type": "category",
+        "show": false
       }
     ],
-    "key": "RXjNGGEoIZ"
+    "key": "qQXIROIMvD"
   },
   "AppBar": {
     "elevation": 0,
@@ -626,7 +625,7 @@
     "useSort": false,
     "hPadding": 6,
     "hidePrice": false,
-    "enableBottomAddToCart": false,
+    "enableBottomAddToCart": true,
     "layout": "pinterest",
     "enableRating": true,
     "imageRatio": 0.8,
