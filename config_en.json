@@ -245,19 +245,21 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "home",
-      "key": "BFDYRCnOXm"
+      "key": "yRpXvBZqys"
     },
     {
-      "key": "LXqyWercgs",
       "layout": "category",
-      "icon": "rectangle_grid_1x2",
+      "parallaxImageRatio": 1.2,
       "fontFamily": "CupertinoIcons",
-      "pos": 200,
-      "defaultTab": false,
       "fullscreen": false,
+      "pos": 200,
       "showOriginalColor": false,
-      "categoryLayout": "animation",
+      "parallax": false,
+      "defaultTab": false,
+      "showSearch": true,
+      "icon": "rectangle_grid_1x2",
       "categories": [
+        "gid://shopify/Collection/474402521379",
         "gid://shopify/Collection/474359824675",
         "gid://shopify/Collection/474359988515",
         "gid://shopify/Collection/474360054051",
@@ -266,6 +268,7 @@
         "gid://shopify/Collection/474360185123",
         "gid://shopify/Collection/474360217891",
         "gid://shopify/Collection/474360316195",
+        "gid://shopify/Collection/477654712611",
         "gid://shopify/Collection/474360348963",
         "gid://shopify/Collection/474360414499",
         "gid://shopify/Collection/474360447267",
@@ -274,6 +277,7 @@
         "gid://shopify/Collection/474360545571",
         "gid://shopify/Collection/474360578339",
         "gid://shopify/Collection/474360611107",
+        "gid://shopify/Collection/474400882979",
         "gid://shopify/Collection/474360643875",
         "gid://shopify/Collection/474360676643",
         "gid://shopify/Collection/474360709411",
@@ -300,12 +304,10 @@
         "gid://shopify/Collection/474400719139",
         "gid://shopify/Collection/474400817443",
         "gid://shopify/Collection/474400850211",
-        "gid://shopify/Collection/474400882979",
         "gid://shopify/Collection/474400915747",
         "gid://shopify/Collection/474400948515",
         "gid://shopify/Collection/474400981283",
         "gid://shopify/Collection/474401014051",
-        "gid://shopify/Collection/474402521379",
         "gid://shopify/Collection/474402586915",
         "gid://shopify/Collection/474402619683",
         "gid://shopify/Collection/474402685219",
@@ -315,19 +317,16 @@
         "gid://shopify/Collection/474402849059",
         "gid://shopify/Collection/474402881827",
         "gid://shopify/Collection/474402914595",
-        "gid://shopify/Collection/474783482147",
         "gid://shopify/Collection/474783514915",
         "gid://shopify/Collection/474783547683",
         "gid://shopify/Collection/474783613219",
         "gid://shopify/Collection/474783645987",
         "gid://shopify/Collection/474783711523",
         "gid://shopify/Collection/474783744291",
-        "gid://shopify/Collection/474783809827",
-        "gid://shopify/Collection/477654712611"
+        "gid://shopify/Collection/474783809827"
       ],
-      "parallax": false,
-      "parallaxImageRatio": 1.2,
-      "showSearch": true
+      "categoryLayout": "animation",
+      "key": "TblsZuhPOm"
     },
     {
       "layout": "search",
@@ -336,7 +335,7 @@
       "size": 24,
       "pos": 300,
       "icon": "search",
-      "key": "aifjhapqzV"
+      "key": "FuXVPlmcsg"
     },
     {
       "layout": "cart",
@@ -346,10 +345,10 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "bag",
-      "key": "QqoFVpKPze"
+      "key": "TlSepbLKFX"
     },
     {
-      "key": "euCNpPozeo",
+      "key": "jFNPoSdUVF",
       "layout": "profile",
       "icon": "person",
       "fontFamily": "CupertinoIcons",
@@ -370,7 +369,8 @@
         "web-YmmdENsUKt",
         "web-poemEkEIeh",
         "web-ZFPdlZAuqP",
-        "web-ZpXJLnrleB"
+        "web-ZpXJLnrleB",
+        "web-OWfLrnbHya"
       ],
       "subGeneralSetting": {
         "web-YmmdENsUKt": {
@@ -446,7 +446,6 @@
           "enableForward": true
         }
       },
-      "hideUser": true,
       "showBackground": false,
       "styleItem": "listTile"
     }
@@ -454,13 +453,13 @@
   "Drawer": {
     "filter": 0.1,
     "logoConfig": {
-      "width": 150,
-      "height": 38,
-      "marginLeft": 20,
       "marginRight": 0,
-      "marginTop": 60,
+      "width": 150,
+      "boxFit": "fitWidth",
       "marginBottom": 10,
-      "boxFit": "fitWidth"
+      "marginTop": 60,
+      "height": 38,
+      "marginLeft": 20
     },
     "colorFilter": "ffffffff",
     "enable": true,
@@ -468,32 +467,32 @@
     "safeArea": true,
     "items": [
       {
-        "type": "home",
-        "show": true
+        "show": true,
+        "type": "home"
       },
       {
-        "type": "blog",
-        "show": true
+        "show": true,
+        "type": "blog"
       },
       {
-        "type": "categories",
-        "show": true
+        "show": true,
+        "type": "categories"
       },
       {
-        "type": "cart",
-        "show": true
+        "show": true,
+        "type": "cart"
       },
       {
-        "type": "profile",
-        "show": true
+        "show": true,
+        "type": "profile"
       },
       {
-        "type": "login",
-        "show": false
+        "show": false,
+        "type": "login"
       },
       {
-        "type": "category",
-        "show": false
+        "show": false,
+        "type": "category"
       }
     ],
     "key": "RXjNGGEoIZ"
