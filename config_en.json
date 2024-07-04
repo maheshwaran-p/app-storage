@@ -13,7 +13,7 @@
       "paddingRight": 15,
       "title": "Discover pure goodness !",
       "type": "static",
-      "enableBackground": true,
+      "enableBackground": false,
       "marginRight": 20,
       "paddingBottom": 0,
       "showSearch": true,
@@ -26,7 +26,6 @@
       "backgroundColor": "#FFFFFF",
       "minWidth": 0,
       "textColor": "ff539d33",
-      "backgroundGradientColor": [],
       "marginLeft": 20,
       "layout": "header_search",
       "textOpacity": 0.5,
@@ -39,41 +38,11 @@
       "font": "Roboto"
     },
     {
-      "boxShadow": null,
-      "parallax": false,
-      "doubleTapToFullScreen": false,
-      "enableBackground": true,
-      "isHorizontal": false,
-      "fit": "fitWidth",
-      "marginRight": null,
-      "isBlur": false,
-      "parallaxImageRatio": 1.2,
-      "showNumber": false,
-      "design": "swiper",
-      "showBackground": false,
-      "radius": 20,
-      "enableTimeIndicator": true,
-      "intervalTime": 3,
-      "padding": 0,
-      "upHeight": 0,
-      "pageIndicatorType": "line",
-      "isSlider": true,
-      "isSoundOn": false,
-      "enableParallax": false,
-      "autoPlayVideo": false,
-      "marginLeft": null,
       "layout": "bannerImage",
-      "marginBottom": 0,
-      "autoPlay": false,
+      "design": "swiper",
+      "fit": "fitWidth",
+      "marginLeft": null,
       "items": [
-        {
-          "image": "https://i.imgur.com/uN2JUPs.jpeg",
-          "bannerWithProduct": false,
-          "showSubcategory": false,
-          "video": "",
-          "defaultShowProduct": false,
-          "products": []
-        },
         {
           "image": "https://i.imgur.com/l0wGGNT.jpeg",
           "bannerWithProduct": false,
@@ -113,9 +82,39 @@
           "video": "",
           "defaultShowProduct": false,
           "products": []
+        },
+        {
+          "image": "https://trello.com/1/cards/66448a40c00b3ce54e6bf010/attachments/66866528253330d4a7a1d254/download/first_30_app_(1).jpg",
+          "showSubcategory": false,
+          "bannerWithProduct": false,
+          "defaultShowProduct": false,
+          "products": [],
+          "video": ""
         }
       ],
+      "marginBottom": 0,
+      "marginRight": null,
       "marginTop": 0,
+      "radius": 20,
+      "padding": 0,
+      "enableParallax": false,
+      "parallaxImageRatio": 1.2,
+      "isHorizontal": false,
+      "enableBackground": false,
+      "isSlider": true,
+      "autoPlay": false,
+      "intervalTime": 3,
+      "showNumber": false,
+      "isBlur": false,
+      "showBackground": false,
+      "upHeight": 0,
+      "isSoundOn": false,
+      "enableTimeIndicator": true,
+      "autoPlayVideo": false,
+      "doubleTapToFullScreen": false,
+      "pageIndicatorType": "line",
+      "parallax": false,
+      "boxShadow": null,
       "preview_data": false
     },
     {
@@ -155,7 +154,7 @@
       "hPadding": 10,
       "hidePrice": false,
       "rows": 1,
-      "enableBottomAddToCart": true,
+      "enableBottomAddToCart": false,
       "layout": "recentView",
       "enableRating": true,
       "imageRatio": 0.7,
@@ -245,88 +244,23 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "home",
-      "key": "bPxoQLnOQg"
+      "key": "viKbAeDHqu"
     },
     {
-      "layout": "category",
-      "parallaxImageRatio": 1.2,
-      "fontFamily": "CupertinoIcons",
-      "fullscreen": false,
-      "pos": 200,
       "showOriginalColor": false,
       "parallax": false,
       "defaultTab": false,
-      "showSearch": true,
       "icon": "rectangle_grid_1x2",
-      "categories": [
-        "gid://shopify/Collection/474402521379",
-        "gid://shopify/Collection/474359824675",
-        "gid://shopify/Collection/474359988515",
-        "gid://shopify/Collection/474360054051",
-        "gid://shopify/Collection/474360086819",
-        "gid://shopify/Collection/474360119587",
-        "gid://shopify/Collection/474360185123",
-        "gid://shopify/Collection/474360217891",
-        "gid://shopify/Collection/474360316195",
-        "gid://shopify/Collection/477654712611",
-        "gid://shopify/Collection/474360348963",
-        "gid://shopify/Collection/474360414499",
-        "gid://shopify/Collection/474360447267",
-        "gid://shopify/Collection/474360480035",
-        "gid://shopify/Collection/474360512803",
-        "gid://shopify/Collection/474360545571",
-        "gid://shopify/Collection/474360578339",
-        "gid://shopify/Collection/474360611107",
-        "gid://shopify/Collection/474400882979",
-        "gid://shopify/Collection/474360643875",
-        "gid://shopify/Collection/474360676643",
-        "gid://shopify/Collection/474360709411",
-        "gid://shopify/Collection/474360774947",
-        "gid://shopify/Collection/474360807715",
-        "gid://shopify/Collection/474360840483",
-        "gid://shopify/Collection/474360906019",
-        "gid://shopify/Collection/474360971555",
-        "gid://shopify/Collection/474361004323",
-        "gid://shopify/Collection/474361069859",
-        "gid://shopify/Collection/474361135395",
-        "gid://shopify/Collection/474361168163",
-        "gid://shopify/Collection/474361233699",
-        "gid://shopify/Collection/474361266467",
-        "gid://shopify/Collection/474361299235",
-        "gid://shopify/Collection/474361364771",
-        "gid://shopify/Collection/474361397539",
-        "gid://shopify/Collection/474361430307",
-        "gid://shopify/Collection/474400522531",
-        "gid://shopify/Collection/474400555299",
-        "gid://shopify/Collection/474400588067",
-        "gid://shopify/Collection/474400620835",
-        "gid://shopify/Collection/474400653603",
-        "gid://shopify/Collection/474400719139",
-        "gid://shopify/Collection/474400817443",
-        "gid://shopify/Collection/474400850211",
-        "gid://shopify/Collection/474400915747",
-        "gid://shopify/Collection/474400948515",
-        "gid://shopify/Collection/474400981283",
-        "gid://shopify/Collection/474401014051",
-        "gid://shopify/Collection/474402586915",
-        "gid://shopify/Collection/474402619683",
-        "gid://shopify/Collection/474402685219",
-        "gid://shopify/Collection/474402717987",
-        "gid://shopify/Collection/474402750755",
-        "gid://shopify/Collection/474402783523",
-        "gid://shopify/Collection/474402849059",
-        "gid://shopify/Collection/474402881827",
-        "gid://shopify/Collection/474402914595",
-        "gid://shopify/Collection/474783514915",
-        "gid://shopify/Collection/474783547683",
-        "gid://shopify/Collection/474783613219",
-        "gid://shopify/Collection/474783645987",
-        "gid://shopify/Collection/474783711523",
-        "gid://shopify/Collection/474783744291",
-        "gid://shopify/Collection/474783809827"
-      ],
+      "layout": "category",
+      "parallaxImageRatio": 1.2,
+      "remapCategories": [],
+      "fontFamily": "CupertinoIcons",
+      "fullscreen": false,
+      "pos": 200,
+      "showSearch": true,
+      "categories": [],
       "categoryLayout": "animation",
-      "key": "NlwDDNebWm"
+      "key": "ydOfjsASjz"
     },
     {
       "layout": "search",
@@ -335,7 +269,7 @@
       "size": 24,
       "pos": 300,
       "icon": "search",
-      "key": "ZMdDdhhHRf"
+      "key": "gFkHimxvnp"
     },
     {
       "layout": "cart",
@@ -345,18 +279,10 @@
       "showOriginalColor": false,
       "defaultTab": false,
       "icon": "bag",
-      "key": "dFTriJOyIR"
+      "key": "ooLiMiWrEU"
     },
     {
-      "key": "eITyHrBnRk",
       "layout": "profile",
-      "icon": "person",
-      "fontFamily": "CupertinoIcons",
-      "pos": 500,
-      "visible": true,
-      "defaultTab": false,
-      "fullscreen": false,
-      "showOriginalColor": false,
       "settings": [
         "biometrics",
         "wishlist",
@@ -371,6 +297,15 @@
         "web-ZFPdlZAuqP",
         "web-ZpXJLnrleB"
       ],
+      "styleItem": "listTile",
+      "fontFamily": "CupertinoIcons",
+      "visible": true,
+      "fullscreen": false,
+      "pos": 500,
+      "showOriginalColor": false,
+      "defaultTab": false,
+      "showBackground": false,
+      "icon": "person",
       "subGeneralSetting": {
         "web-YmmdENsUKt": {
           "enableClose": true,
@@ -445,20 +380,19 @@
           "enableForward": true
         }
       },
-      "showBackground": false,
-      "styleItem": "listTile"
+      "key": "xjqsoPLeKW"
     }
   ],
   "Drawer": {
     "filter": 0.1,
     "logoConfig": {
-      "width": 150,
-      "height": 38,
-      "marginLeft": 20,
       "marginRight": 0,
-      "marginTop": 60,
+      "width": 150,
+      "boxFit": "fitWidth",
       "marginBottom": 10,
-      "boxFit": "fitWidth"
+      "marginTop": 60,
+      "height": 38,
+      "marginLeft": 20
     },
     "colorFilter": "ffffffff",
     "enable": true,
@@ -466,32 +400,32 @@
     "safeArea": true,
     "items": [
       {
-        "type": "home",
-        "show": true
+        "show": true,
+        "type": "home"
       },
       {
-        "type": "blog",
-        "show": true
+        "show": true,
+        "type": "blog"
       },
       {
-        "type": "categories",
-        "show": true
+        "show": true,
+        "type": "categories"
       },
       {
-        "type": "cart",
-        "show": true
+        "show": true,
+        "type": "cart"
       },
       {
-        "type": "profile",
-        "show": true
+        "show": true,
+        "type": "profile"
       },
       {
-        "type": "login",
-        "show": true
+        "show": true,
+        "type": "login"
       },
       {
-        "type": "category",
-        "show": false
+        "show": false,
+        "type": "category"
       }
     ],
     "key": "qQXIROIMvD"
@@ -625,7 +559,7 @@
     "useSort": false,
     "hPadding": 6,
     "hidePrice": false,
-    "enableBottomAddToCart": true,
+    "enableBottomAddToCart": false,
     "layout": "pinterest",
     "enableRating": true,
     "imageRatio": 0.8,
