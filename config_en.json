@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_single_quotes, lines_longer_than_80_chars final
+
 Map<String, dynamic> environment = {
   "appConfig": "https://maheshwaran-p.github.io/app-storage/config_en.json",
   "serverConfig": {
