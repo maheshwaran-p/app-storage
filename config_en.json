@@ -64,54 +64,72 @@
       "layout": "bannerImage",
       "marginBottom": 0,
       "autoPlay": false,
-      "items": [
+        "items": [
         {
-          "image": "https://maheshwaran-p.github.io/whatsapp_promotional_images/shopify%204.jpg",
+          "image": "https://trello.com/1/cards/66448a40c00b3ce54e6bf010/attachments/668399b32c21402657bde40d/download/first_30_app.jpg",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
           "defaultShowProduct": false,
-          "products": []
+          "products": [],
+          "productLength": 3,
+          "name": "All Vegetables",
+          "category": "gid://shopify/Collection/474402521379"
         },
         {
-          "image": "https://maheshwaran-p.github.io/whatsapp_promotional_images/shopify%205.jpg",
+          "image": "https://i.imgur.com/l0wGGNT.jpeg",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
           "defaultShowProduct": false,
-          "products": []
+          "products": [],
+          "productLength": 3,
+          "name": "All - Groceries & Staples",
+          "category": "gid://shopify/Collection/474783482147"
         },
         {
-          "image": "https://maheshwaran-p.github.io/whatsapp_promotional_images/shopify%206.jpg",
+          "image": "https://i.imgur.com/iU2JDWa.jpeg",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
           "defaultShowProduct": false,
-          "products": []
+          "products": [],
+          "productLength": 3,
+          "name": "Seasonal Fruits",
+          "category": "gid://shopify/Collection/474360709411"
         },
         {
-          "image": "https://maheshwaran-p.github.io/whatsapp_promotional_images/shopify%208.jpg",
-          "bannerWithProduct": false,
-          "showSubcategory": false,
-          "video": "",
-          "defaultSh owProduct": false,
-          "products": []
-        },
-        {
-          "image": "https://maheshwaran-p.github.io/whatsapp_promotional_images/shopify%209.jpg",
+          "image": "https://i.imgur.com/4WQHyLD.jpeg",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
           "defaultShowProduct": false,
-          "products": []
+          "products": [],
+          "productLength": 3,
+          "name": "All - Groceries & Staples",
+          "category": "gid://shopify/Collection/474783482147"
         },
         {
-          "image": "https://maheshwaran-p.github.io/whatsapp_promotional_images/shopify%207.jpg",
+          "image": "https://i.imgur.com/TK1q8X0.png",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
           "defaultShowProduct": false,
-          "products": []
+          "products": [],
+          "productLength": 3,
+          "name": "All - Groceries & Staples",
+          "category": "gid://shopify/Collection/474783482147"
+        },
+        {
+          "image": "https://i.imgur.com/I8Ul88W.jpeg",
+          "bannerWithProduct": false,
+          "showSubcategory": false,
+          "video": "",
+          "defaultShowProduct": false,
+          "products": [],
+          "productLength": 3,
+          "category": "gid://shopify/Collection/474402914595",
+          "name": "All - Spices & Condiments"
         }
       ],
       "marginTop": 0,
