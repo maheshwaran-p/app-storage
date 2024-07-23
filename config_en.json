@@ -183,7 +183,7 @@
       "backgroundRadius": 10,
       "isSnapping": false,
       "showCartButton": true,
-      "name": "Collections",
+      "name": "Recently Viewed",
       "cartIconRadius": 9,
       "enableAutoSliding": false,
       "hideEmptyProductListRating": false,
