@@ -64,9 +64,9 @@
       "layout": "bannerImage",
       "marginBottom": 0,
       "autoPlay": false,
-        "items": [
+      "items": [
         {
-          "image": "https://trello.com/1/cards/66448a40c00b3ce54e6bf010/attachments/668399b32c21402657bde40d/download/first_30_app.jpg",
+          "image": "https://github.com/SahithyaSankar/OrgFarm_Images/blob/main/shopify%2013.jpg?raw=true",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
@@ -77,7 +77,7 @@
           "category": "gid://shopify/Collection/474402521379"
         },
         {
-          "image": "https://i.imgur.com/l0wGGNT.jpeg",
+          "image": "https://raw.githubusercontent.com/SahithyaSankar/OrgFarm_Images/main/groceries.jpg",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
@@ -88,7 +88,7 @@
           "category": "gid://shopify/Collection/474783482147"
         },
         {
-          "image": "https://i.imgur.com/iU2JDWa.jpeg",
+          "image": "https://github.com/SahithyaSankar/OrgFarm_Images/blob/main/shopify%2012.jpg?raw=true",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
@@ -99,29 +99,29 @@
           "category": "gid://shopify/Collection/474360709411"
         },
         {
-          "image": "https://i.imgur.com/4WQHyLD.jpeg",
+          "image": "https://github.com/SahithyaSankar/OrgFarm_Images/blob/main/millets.jpg?raw=true",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
           "defaultShowProduct": false,
           "products": [],
           "productLength": 3,
-          "name": "All - Groceries & Staples",
-          "category": "gid://shopify/Collection/474783482147"
+          "name": "All - Gourmet Foods",
+          "category": "gid://shopify/Collection/474402717987"
         },
         {
-          "image": "https://i.imgur.com/TK1q8X0.png",
+          "image": "https://raw.githubusercontent.com/SahithyaSankar/OrgFarm_Images/main/diary.jpg",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
           "defaultShowProduct": false,
           "products": [],
           "productLength": 3,
-          "name": "All - Groceries & Staples",
-          "category": "gid://shopify/Collection/474783482147"
+          "name": "All - Bakery & Dairy",
+          "category": "gid://shopify/Collection/474402881827"
         },
         {
-          "image": "https://i.imgur.com/I8Ul88W.jpeg",
+          "image": "https://raw.githubusercontent.com/SahithyaSankar/OrgFarm_Images/main/spices.jpg",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
