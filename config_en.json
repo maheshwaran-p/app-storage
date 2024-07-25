@@ -542,13 +542,11 @@
     {
       "layout": "profile",
       "settings": [
-        "biometrics",
         "wishlist",
         "notifications",
         "order",
         "rating",
         "privacy",
-        "about",
         "darkTheme",
         "web-YmmdENsUKt",
         "web-poemEkEIeh",
