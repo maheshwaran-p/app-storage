@@ -66,8 +66,7 @@
       "autoPlay": false,
       "items": [
         {
-          "image": "https://cdn.shopify.com/s/files/1/0854/9462/8643/files/fruits_combo_offer-100_f61a6b03-4571-40ee-ae15-c89bd6c85999.jpg?v=1725446388
-",
+          "image": "https://cdn.shopify.com/s/files/1/0854/9462/8643/files/fruits_combo_offer-100_f61a6b03-4571-40ee-ae15-c89bd6c85999.jpg?v=1725446388",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
@@ -516,7 +515,7 @@
           "category": "gid://shopify/Collection/478581489955",
           "image": null
         },
-                {
+        {
           "parent": "gid://shopify/Collection/480935149859",
           "category": "gid://shopify/Collection/480935280931",
           "image": null
