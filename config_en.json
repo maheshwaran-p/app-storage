@@ -1,3 +1,4 @@
+
 {
   "HorizonLayout": [
     {
@@ -134,61 +135,8 @@
       ],
       "marginTop": 0,
       "preview_data": false
-    },
-    {
-      "showCartIcon": false,
-      "boxShadow": {
-        "spreadRadius": 10,
-        "colorOpacity": 0.1,
-        "blurRadius": 17.17171717171717,
-        "x": -1,
-        "y": 1
-      },
-      "imageBoxfit": "cover",
-      "showStockStatus": true,
-      "featured": false,
-      "hideEmptyProductLayout": false,
-      "showCountDown": false,
-      "parallax": false,
-      "columns": 0,
-      "hideStore": false,
-      "vPadding": 3,
-      "showQuantity": false,
-      "showHeart": false,
-      "hMargin": 0,
-      "parallaxImageRatio": 1.2,
-      "showCartButtonWithQuantity": false,
-      "vMargin": 0,
-      "showOnlyImage": false,
-      "onSale": false,
-      "productType": false,
-      "order": "asc",
-      "image": "",
-      "showCategory": false,
-      "productListItemHeight": 125,
-      "showCartIconColor": false,
-      "useSort": false,
-      "orderby": "menu_order",
-      "hPadding": 10,
-      "hidePrice": false,
-      "rows": 1,
-      "enableBottomAddToCart": false,
-      "layout": "recentView",
-      "enableRating": true,
-      "imageRatio": 0.7,
-      "useCircularRadius": true,
-      "hideTitle": false,
-      "borderRadius": 9,
-      "cardDesign": "card",
-      "backgroundRadius": 10,
-      "isSnapping": false,
-      "showCartButton": true,
-      "name": "Recently Viewed",
-      "cartIconRadius": 9,
-      "enableAutoSliding": false,
-      "hideEmptyProductListRating": false,
-      "preview_data": false
     }
+   
   ],
   "Setting": {
     "TabBarConfig": {
