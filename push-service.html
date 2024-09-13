@@ -1,33 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-  
- <meta charset="UTF-8">
-     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-     <style type="text/css">
-                body, html
-                {
-                    margin: 0; padding: 0; height: 100%; overflow: hidden;  -webkit-backface-visibility: visible;
-                  background: linear-gradient(to right, darkblue, dodgerblue);
-                }
+<head>
+    <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <style type="text/css">
+        body, html {
+            margin: 0; padding: 0; height: 100%; overflow: hidden; -webkit-backface-visibility: visible;
+            background: linear-gradient(to right, darkblue, dodgerblue);
+        }
 
-                #content
-                {
-                    position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
-                }
-   
-            </style>
-    </head>
-    <body> 
-
+        #content {
+            position: absolute; left: 0; right: 0; bottom: 0; top: 0px;
+        }
+    </style>
+</head>
+<body>
     <script type="text/javascript">
-    function onFrameLoad() {
-            do stuff
-    };
+        function onFrameLoad() {
+            // Perform actions when the iframe has loaded
+        }
     </script>
 
     <div id="content">
-    <iframe onload="onFrameLoad(this)" id="app" src="https://script.google.com/macros/s/AKfycbypzVqGvu6VdkjvUofuUM4JBJJ1u6MRC6rp96lsiewIa2BAAYY-N1C_SOABC7fkZRH1/exec" frameborder="0" height="100%" width="100%"></iframe>
+        <iframe onload="onFrameLoad()" id="app" src="YOUR_SCRIPT_URL_HERE" frameborder="0" height="100%" width="100%"></iframe>
     </div>
-    </body>
-    </html>
+</body>
+</html>
