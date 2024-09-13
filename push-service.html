@@ -11,22 +11,18 @@
 
         #content {
             position: absolute; left: 0; right: 0; bottom: 0; top: 0px;
-            display: flex; align-items: center; justify-content: center;
-        }
-
-        .button {
-            background-color: white; color: black; padding: 15px 25px; border: none; border-radius: 5px;
-            font-size: 16px; cursor: pointer;
-        }
-
-        .button:hover {
-            background-color: #ddd;
         }
     </style>
 </head>
 <body>
+    <script type="text/javascript">
+        function onFrameLoad() {
+            // Perform actions when the iframe has loaded
+        }
+    </script>
+
     <div id="content">
-        <a href="https://script.google.com/a/macros/c1exchange.com/s/AKfycbxO0bN4kfltAo9iWKjYCLoY0e1FvF2k2Ui_Oj4faq9etzZRVvH1bvpHTCr2OFkfwUPP/exec" class="button" target="_blank">Open Web App</a>
+        <iframe onload="onFrameLoad()" id="app" src="https://script.google.com/macros/s/AKfycbxO0bN4kfltAo9iWKjYCLoY0e1FvF2k2Ui_Oj4faq9etzZRVvH1bvpHTCr2OFkfwUPP/exec" frameborder="0" height="100%" width="100%"></iframe>
     </div>
 </body>
 </html>
