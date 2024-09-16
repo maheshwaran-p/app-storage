@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Segment Selection</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <style>
+    .selected-segment {
+      background-color: #f2f4f7; /* Mild professional color */
+      color: #333;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      margin-right: 10px; /* Add spacing between segments */
+      display: inline-block;
+    }
+
+    .selected-segment span {
+      font-size: 12px;
+      font-weight: bold;
+      padding: 5px;
+    }
+
+    .selected-segment .fa-close {
+      float: right;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+
+    .selected-segment:hover {
+      background-color: #e0e3e7; /* Hover color */
+    }
+
+    #schedule-date-time {
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <br>
+        <h3>Segments</h3>
+        <div id="segments-loading" class="text-center" style="padding-top: 300 px;">
+          <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+
+            <button class="btn btn-primary">
+    <span class="spinner-border spinner-border-sm"></span>
+    Loading Segments...
+  </button>
+        </div>
+        <div id="segments-list" style="display: none;">
+          <ul class="list-group"></ul>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <br>
+        <h3>Selected Segments</h3>
+        <div id="selected-segments-list" class="selected-segments"></div>
+<br>
+        <div class="form-group">
+          <label for="notification-title">Notification Title:</label>
+          <input type="text" class="form-control" id="notification-title" required>
+        </div>
+        <div class="form-group">
+          <label for="notification-body">Notification Body:</label>
+          <textarea class="form-control" id="notification-body" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="landing-url">Landing URL:</label>
+          <input type="text" class="form-control" id="landing-url">
+        </div>
+        <div class="form-group">
+          <label for="image-url">Image URL:</label>
+          <input type="text" class="form-control" id="image-url">
+        </div>
+
+        <!-- New: Promotion Name and Trigger Options -->
+        <div class="form-group">
+          <label for="promotion-name">Promotion Name:</label>
+          <input type="text" class="form-control" id="promotion-name">
+        </div>
+
+        <div class="form-group">
+          <label>Type:</label><br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="trigger-option" id="trigger-now" value="now" checked>
+            <label class="form-check-label" for="trigger-now">Trigger Now</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="trigger-option" id="schedule-later" value="later">
+            <label class="form-check-label" for="schedule-later">Schedule Later</label>
+          </div>
+        </div>
+
+        <!-- New: Date/Time Fields for Scheduled Notification -->
+        <div id="schedule-date-time" style="display: none;">
+          <div class="form-group">
+            <label for="schedule-date">Schedule Date:</label>
+            <input type="date" class="form-control" id="schedule-date">
+          </div>
+          <div class="form-group">
+            <label for="schedule-time">Schedule Time:</label>
+            <input type="time" class="form-control" id="schedule-time">
+          </div>
+        </div>
+
+        <button id="fire-notification-button" class="btn btn-primary" style="margin-top: 20px;">Fire Notification</button>
+     <br>
+       <br>
+         <br>
+       <br>
+         <br>
+       <br>
+         <br>
+       <br>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var options = {
+      autoClose: true,
+      progressBar: true,
+      enableSounds: true,
+      sounds: {
+        info: "https://res.cloudinary.com/dxfq3iotg/video/upload/v1557233294/info.mp3",
+        success: "https://res.cloudinary.com/dxfq3iotg/video/upload/v1557233524/success.mp3",
+      },
+    };
+
+    toastr.options = options;
+
+    $(document).ready(function() {
+      google.script.run.withSuccessHandler(function(segments) {
+        $.each(segments, function(index, segment) {
+          $("#segments-list ul").append(
+            "<li class='list-group-item'><input type='checkbox' data-id='" + segment.id + "' style='float: right;'>" + segment.name + "</li>"
+          );
+        });
+
+        $("#segments-loading").hide();
+        $("#segments-list").show();
+
+        // Bind event listener for checkbox change after segments are loaded
+        $("#segments-list ul li input[type='checkbox']").on("change", function() {
+          updateSelectedSegments();
+        });
+      }).getSegments();
+
+      // Toggle visibility of schedule date-time fields based on selected option
+      $("input[name='trigger-option']").change(function() {
+        if ($("#schedule-later").is(":checked")) {
+          $("#schedule-date-time").show();
+        } else {
+          $("#schedule-date-time").hide();
+        }
+      });
+    });
+
+    function updateSelectedSegments() {
+      var selectedSegments = [];
+      $("#segments-list ul li input[type='checkbox']:checked").each(function() {
+        var segmentName = $(this).parent().text().trim();
+        var segmentId = $(this).data("id");  // Get the segment ID
+        selectedSegments.push({ id: segmentId, name: segmentName });
+      });
+
+      $("#selected-segments-list").empty();
+      $.each(selectedSegments, function(index, segment) {
+        $("#selected-segments-list").append(
+          "<div class='selected-segment'><span>" + segment.name + "</span><i class='fa fa-close' data-id='" + segment.id + "'></i></div>"
+        );
+      });
+    }
+
+    // Handle the click on the close icon to remove the selected segment
+    $(document).on("click", ".fa-close", function() {
+      var segmentId = $(this).data("id");
+      $("#segments-list ul li input[data-id='" + segmentId + "']").prop("checked", false);
+      updateSelectedSegments();
+    });
+
+    $("#fire-notification-button").on("click", function() {
+      var selectedSegmentIds = [];
+      $("#selected-segments-list .selected-segment .fa-close").each(function() {
+        selectedSegmentIds.push($(this).data("id"));
+      });
+
+      var notificationTitle = $("#notification-title").val();
+      var notificationBody = $("#notification-body").val();
+      var landingUrl = $("#landing-url").val();
+      var imageUrl = $("#image-url").val();
+      var promotionName = $("#promotion-name").val() || "DEFAULT";
+
+      var triggerOption = $("input[name='trigger-option']:checked").val();
+      var scheduledDateTime = null;
+
+      // If Schedule Later is selected, get the date and time
+      if (triggerOption === "later") {
+        var scheduleDate = $("#schedule-date").val();
+        var scheduleTime = $("#schedule-time").val();
+        if (scheduleDate && scheduleTime) {
+          scheduledDateTime = scheduleDate + " " + scheduleTime;
+        } else {
+          toastr.error("Please select a valid date and time for scheduling");
+          return;
+        }
+      }
+
+      if (notificationTitle == "" || notificationBody == "") {
+        toastr.error("Please fill in notification title and body");
+      } else if (selectedSegmentIds.length == 0) {
+        toastr.error("No segments selected");
+      } else {
+       
+        google.script.run.processPromotion(selectedSegmentIds, notificationTitle, notificationBody, landingUrl, imageUrl, promotionName, scheduledDateTime);
+        if (triggerOption === "later") 
+           toastr.success("Promotion Scheduled Successfully to " + selectedSegmentIds.length + " segments");
+        else
+           toastr.success("Promotion Started for " + selectedSegmentIds.length + " segments");
+         
+      }
+    });
+  </script>
+</body>
+</html>
