@@ -66,7 +66,8 @@
       "autoPlay": false,
       "items": [
         {
-          "image": "https://maheshwaran-p.github.io/whatsapp_promotional_images/dussehra-offer.jpg",
+          "image": "https://cdn.shopify.com/s/files/1/0854/9462/8643/files/pro_nature_navaratri_combo.jpg?v=1728548203
+",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
@@ -74,7 +75,7 @@
           "products": [],
           "productLength": 3,
           "name": "All - Pooja",
-          "category": "gid://shopify/Collection/474402783523"
+          "category": "gid://shopify/Collection/474783482147"
         },
         {
           "image": "https://raw.githubusercontent.com/SahithyaSankar/OrgFarm_Images/main/groceries.jpg",
@@ -88,7 +89,8 @@
           "category": "gid://shopify/Collection/474783482147"
         },
         {
-          "image": "https://github.com/SahithyaSankar/OrgFarm_Images/blob/main/shopify%2012.jpg?raw=true",
+          "image": "https://cdn.shopify.com/s/files/1/0854/9462/8643/files/puffed_rice_offer.jpg?v=1728553170
+",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
@@ -96,7 +98,7 @@
           "products": [],
           "productLength": 3,
           "name": "Seasonal Fruits",
-          "category": "gid://shopify/Collection/474360709411"
+          "category": null
         },
         {
           "image": "https://github.com/SahithyaSankar/OrgFarm_Images/blob/main/millets.jpg?raw=true",
