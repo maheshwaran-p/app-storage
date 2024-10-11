@@ -77,7 +77,7 @@
           "category": "gid://shopify/Collection/474783482147"
         },
         {
-          "image": "https://maheshwaran-p.github.io/app-storage/puffed_rice_offer.jpg",
+          "image": "https://raw.githubusercontent.com/SahithyaSankar/OrgFarm_Images/main/groceries.jpg",
           "bannerWithProduct": false,
           "showSubcategory": false,
           "video": "",
@@ -85,7 +85,7 @@
           "products": [],
           "productLength": 3,
           "name": "All - Groceries & Staples",
-          "category": null
+          "category": "gid://shopify/Collection/474783482147"
         },
         {
           "image": "https://github.com/SahithyaSankar/OrgFarm_Images/blob/main/shopify%2012.jpg?raw=true",
