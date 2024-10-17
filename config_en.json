@@ -65,17 +65,7 @@
       "marginBottom": 0,
       "autoPlay": false,
       "items": [
-        {
-          "image": "https://cdn.shopify.com/s/files/1/0854/9462/8643/files/mobile_banner_-100.jpg?v=1728981397",
-          "bannerWithProduct": false,
-          "showSubcategory": false,
-          "video": "",
-          "defaultShowProduct": false,
-          "products": [],
-          "productLength": 3,
-          "name": "All - Pooja",
-          "category": null
-        },
+        
         {
           "image": "https://raw.githubusercontent.com/SahithyaSankar/OrgFarm_Images/main/groceries.jpg",
           "bannerWithProduct": false,
