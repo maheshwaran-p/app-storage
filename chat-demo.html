@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Script Setup</title>
+  <style>
+    .content {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .ad-container {
+      margin-top: 10px;
+      width: 300px;
+      height: 250px;
+      border: 1px solid #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .content img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Dynamic Script Setup</h2>
+  <textarea id="scriptInput" rows="5" cols="60" placeholder="Paste your script here"></textarea>
+  <br>
+  <button onclick="setDynamicScript()">Set Script</button>
+
+  <div class="content" style="display: none;">
+    <img src="/assets/demo/bg2.png" alt="Background Image">
+    <div class="ad-container" id="chat-ad"></div>
+  </div>
+
+  <script>
+    function setDynamicScript() {
+      // Get the script content from the textarea
+      const scriptContent = document.getElementById('scriptInput').value;
+
+      // Create a new script element
+      const script = document.createElement('script');
+      script.type = "text/javascript";
+      script.innerHTML = scriptContent;
+
+      // Append the script to the body
+      document.body.appendChild(script);
+
+      // Display the content div after adding the script
+      document.querySelector('.content').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
